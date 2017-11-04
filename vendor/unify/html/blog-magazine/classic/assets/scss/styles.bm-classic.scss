@@ -1,0 +1,186 @@
+//
+// Variables and Mixins
+//
+
+@import "variables.bm-classic";
+@import "../../../../assets/include/scss/unify";
+
+/*------------------------------------
+  Headings
+------------------------------------*/
+.h1, .h2, .h3, .h4, .h5, .h6, .h7,
+h1, h2, h3, h4, h5, h6 {
+  font-family: $g-font-secondary;
+}
+
+/* Typography */
+p {
+	color: $g-color-secondary-dark-v1;
+	line-height: 1.8;
+}
+
+/*------------------------------------
+  Font Family
+------------------------------------*/
+.g-font {
+	&-primary {
+  	font-family: $g-font-primary;
+  }
+
+	&-secondary {
+	  font-family: $g-font-secondary;
+	}
+}
+
+
+/*------------------------------------
+  Colors
+------------------------------------*/
+.g-color-secondary {
+  color: $g-color-secondary;
+
+	&-dark-v1 {
+	  color: $g-color-secondary-dark-v1;
+	}
+
+	&-dark-v2 {
+	  color: $g-color-secondary-dark-v2;
+	}
+
+	&-light-v1 {
+	  color: $g-color-secondary-light-v1;
+	}
+
+	&-light-v2 {
+	  color: $g-color-secondary-light-v2;
+	}
+}
+
+/*------------------------------------
+  Background Colors
+------------------------------------*/
+.g-bg-secondary {
+  background-color: $g-bg-color-secondary;
+
+  &--hover:hover {
+  	background-color: $g-bg-color-secondary !important;
+  }
+
+  &-light-v3 {
+  	background-color: $g-color-secondary-light-v3 !important;
+  }
+}
+
+.g-bg-darkblue-v1 {
+	background-color: $g-color-darkblue-v1 !important;
+}
+
+/*------------------------------------
+  Border Colors
+------------------------------------*/
+.g-brd-secondary {
+	&-light-v2 {
+  	border-color: $g-color-secondary-light-v2 !important;
+  }
+}
+
+/*------------------------------------
+  Placeholder
+------------------------------------*/
+.g-placeholder-secondary-dark-v1 {
+  &::placeholder {
+    opacity: 1;
+    color: $g-color-secondary-dark-v1;
+  }
+
+  &::-moz-placeholder {
+    opacity: 1;
+    color: $g-color-secondary-dark-v1;
+  }
+
+  &::-webkit-input-placeholder {
+    opacity: 1;
+    color: $g-color-secondary-dark-v1;
+  }
+}
+
+/*------------------------------------
+  Slider Revolution
+------------------------------------*/
+/* Slider Revolution v1 */
+.u-rev-slider-v1 {
+	.gyges {
+		.tp-tabs {
+			border-bottom-color: rgba(255,255,255,.1);
+
+			&-inner-wrapper {
+				border-left: 1px solid rgba(255,255,255,.1);
+			}
+		}
+
+		.tp-tab {
+			padding: 13px 12px;
+
+			&:hover,
+			&.selected {
+			  background: rgba($g-color-darkblue-v1, .5);
+			}
+
+			&-title {
+				font-size: 13px;
+				color: rgba($g-color-white, .8);
+				line-height: 1.4;
+			}
+		}
+	}
+}
+
+/* Slider Revolution v2 */
+.u-rev-slider-v2 {
+	.gyges {
+		.tp-tabs {
+			border-bottom: none;
+		}
+
+		.tp-tab {
+			background-color: $g-color-white;
+			padding: 20px;
+
+			&:hover,
+			&.selected {
+			  background: rgba($g-color-primary, 1);
+
+			  .tp-tab-date,
+				.tp-tab-title {
+					color: $g-color-white;
+				}
+			}
+
+			&-content {
+				padding-top: 11px;
+				padding-left: 95px;
+			}
+
+			&-date {
+				color: $g-color-secondary-dark-v1;
+			}
+
+			&-title {
+				font-family: $g-font-secondary;
+				font-size: 13px;
+				color: $g-color-main;
+				line-height: 1.4;
+			}
+		}
+	}
+}
+
+/*------------------------------------
+  Info Block v10-1
+------------------------------------*/
+.u-info-v10-1 {
+	&::before,
+	&::after {
+		background: $g-color-secondary-light-v2;
+	}
+}

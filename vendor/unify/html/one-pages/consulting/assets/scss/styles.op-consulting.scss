@@ -1,0 +1,105 @@
+//
+// Variables and Mixins
+//
+@import "variables.op-consulting";
+@import "../../../../assets/include/scss/unify";
+
+/*------------------------------------
+  Headings
+------------------------------------*/
+.h1, .h2, .h3, .h4, .h5, .h6, .h7,
+h1, h2, h3, h4, h5, h6 {
+  color: $g-color-main;
+}
+
+/* Typography */
+p {
+  color: $g-color-text;
+}
+
+/*------------------------------------
+  Font Family
+------------------------------------*/
+.g-font-family-ptsans {
+  font-family: $g-font-ptsans;
+}
+
+.g-font-family-merriweather {
+  font-family: $g-font-merriweather;
+}
+
+/*------------------------------------
+  Colors
+------------------------------------*/
+.g-color-text {
+  color: $g-color-text;
+}
+
+.g-color-secondary {
+  color: $g-color-secondary;
+}
+
+.g-color-main-light-v1 {
+  color: $g-color-main-light-v1;
+}
+
+/*------------------------------------
+  Background Colors
+------------------------------------*/
+.g-bg-secondary {
+  background-color: $g-bg-secondary !important;
+}
+
+/*------------------------------------
+  Background Colors
+------------------------------------*/
+.g-bg-secondary-light-v1 {
+  background-color: $g-bg-secondary-light-v1 !important;
+}
+
+/*------------------------------------
+  Border Colors
+------------------------------------*/
+.g-brd-secondary-light-v1 {
+  border-color: $g-bg-secondary-light-v1 !important;
+
+  &--hover:hover {
+    border-color: $g-bg-secondary-light-v1 !important;
+  }
+}
+
+/*------------------------------------
+  Header
+------------------------------------*/
+.u-header__section .nav-link {
+  color: $g-color-white;
+}
+
+.js-header-change-moment.u-header__section .nav-link {
+  color: $g-color-main;
+}
+
+.u-header__section {
+  & .navbar-nav:not([class*="u-main-nav-v"]) .open > .nav-link,
+  & .navbar-nav:not([class*="u-main-nav-v"]) .active > .nav-link,
+  & .navbar-nav:not([class*="u-main-nav-v"]) .nav-link.open,
+  & .navbar-nav:not([class*="u-main-nav-v"]) .nav-link.active,
+  &--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .open > .nav-link,
+  &--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .active > .nav-link,
+  &--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link.open,
+  &--shift.js-header-change-moment .navbar-nav:not([class*="u-main-nav-v"]) .nav-link.active {
+    color: $g-color-primary;
+  }
+}
+
+/*--------------------------------------------------
+  Info Block v9-1
+----------------------------------------------------*/
+
+@media (min-width: $g-md) {
+  .u-info-v9-1 {
+    &::before {
+      border-top-color: $g-color-secondary-light-v1;
+    }
+  }
+}

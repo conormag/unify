@@ -1,0 +1,27 @@
+// Variables and Mixins
+@import "variables.dark-theme";
+@import "../../../../../assets/include/scss/unify";
+
+body {
+  background-color: $g-bg-color-main;
+}
+.u-go-to-v1 {
+  background-color: rgba(0,0,0, .7);
+}
+
+.hs-sub-menu,
+.hs-mega-menu {
+  background-color: #000;
+}
+.dropdown-item {
+  &:focus,
+  &:hover {
+    background: rgba(#fff, .1);
+  }
+}
+
+@media (min-width: $g-lg) {
+  [class*="u-dropdown-col-"] {
+    column-rule: 1px solid $g-color-gray-dark-v2;
+  }
+}

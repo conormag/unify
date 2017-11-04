@@ -1,0 +1,2459 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+    <title>Documentation | Unify - Responsive Website Template</title>
+
+		<!-- Required Meta Tags Always Come First -->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../html/favicon.ico">
+
+		<!-- CSS Global Compulsory -->
+		<link rel="stylesheet" href="../html/assets/vendor/bootstrap/bootstrap.min.css">
+
+    <!-- CSS Implementing Plugins -->
+    <link rel="stylesheet" href="../html/assets/vendor/icon-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../html/assets/vendor/icon-line/css/simple-line-icons.css">
+    <link rel="stylesheet" href="../html/assets/vendor/hamburgers/hamburgers.min.css">
+    <link rel="stylesheet" href="../html/assets/vendor/malihu-scrollbar/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="../html/assets/vendor/prism/themes/prism.css">
+
+    <!-- CSS Unify -->
+    <link rel="stylesheet" href="../html/assets/css/unify.css">
+	</head>
+
+	<body class="u-body--header-side-static-left">
+    <main>
+		  <!-- Sidebar Navigation -->
+		  <header id="js-header" class="u-header u-header--side" data-header-position="left" data-header-breakpoint="lg">
+		    <div class="u-header__sections-container g-bg-white g-brd-right--lg g-brd-gray-light-v4 g-py-10 g-px-10--lg">
+		      <div class="u-header__section u-header__section--light">
+		        <nav class="navbar navbar-expand-lg">
+		          <div class="container">
+		            <!-- Responsive Toggle Button -->
+		            <button class="navbar-toggler navbar-toggler-right btn g-line-height-1 g-brd-none g-pa-0 g-pos-abs g-right-0 g-top-3" type="button"
+		                    aria-label="Toggle navigation"
+		                    aria-expanded="false"
+		                    aria-controls="navBar"
+		                    data-toggle="collapse"
+		                    data-target="#navBar">
+		              <span class="hamburger hamburger--slider">
+		                <span class="hamburger-box">
+		                  <span class="hamburger-inner"></span>
+		                </span>
+		              </span>
+		            </button>
+		            <!-- End Responsive Toggle Button -->
+
+		            <!-- Title -->
+		            <div class="w-100 g-brd-bottom g-brd-gray-light-v4 g-pb-20 g-pr-40 g-mb-30">
+			            <h1 class="h3 g-color-gray-dark-v2 g-font-weight-300">Unify - Responsive Website Template</h1>
+			            <small class="d-block g-font-size-14">Documentation v2.2</small>
+		            </div>
+		            <!-- End Title -->
+
+		            <!-- Navigation -->
+		            <div class="collapse navbar-collapse align-items-center flex-sm-row w-100 g-mt-20 g-mt-0--lg g-mb-30" id="navBar">
+		              <ul id="js-scroll-nav" class="navbar-nav ml-auto u-sub-menu-v1">
+		                <li class="nav-item g-my-5">
+		                  <a href="#go-introduction" class="nav-link g-color-primary--hover">Introduction</a>
+		                </li>
+		                <li class="nav-item g-my-5">
+		                  <a href="#go-file-structures" class="nav-link g-color-primary--hover">File Structures</a>
+		                </li>
+		                <li class="nav-item g-my-5">
+	                  <a href="#go-css-structure" class="nav-link g-color-primary--hover">CSS (SASS) Structure</a>
+		                </li>
+		                <li class="nav-item g-my-5">
+		                  <a href="#go-javaScript-structure" class="nav-link g-color-primary--hover">JavaScript Structure</a>
+		                </li>
+		                <li class="nav-item g-my-5">
+		                  <a href="#go-shortcodes" class="nav-link g-color-primary--hover">Shortcodes</a>
+		                </li>
+		                <li class="nav-item g-my-5">
+		                  <a href="#go-starter-template" class="nav-link g-color-primary--hover">Starter Template</a>
+		                </li>
+		                <li class="nav-item g-my-5">
+		                  <a href="#go-gulp" class="nav-link g-color-primary--hover">Gulp</a>
+		                </li>
+		                <li class="nav-item g-my-5">
+		                  <a href="#go-theme-colors" class="nav-link g-color-primary--hover">Theme Colors</a>
+		                </li>
+		                <li class="nav-item g-my-5">
+		                  <a href="#go-credits" class="nav-link g-color-primary--hover">Credits</a>
+		                </li>
+		                <li class="nav-item g-my-5">
+		                  <a href="#go-upgrade" class="nav-link g-color-primary--hover">Upgrade</a>
+		                </li>
+		                <li class="nav-item g-my-5">
+		                  <a href="#go-changelog" class="nav-link g-color-primary--hover">Changelog</a>
+		                </li>
+		                <li class="nav-item g-my-5">
+		                  <a href="#go-end-of-documentation" class="nav-link g-color-primary--hover">End of Documentation</a>
+		                </li>
+		              </ul>
+		            </div>
+		            <!-- End Navigation -->
+
+		            <!-- Sidebar Footer -->
+		            <div class="d-none d-lg-block w-100 g-brd-top g-brd-gray-light-v4 g-pt-20">
+					        <ul class="list-inline g-mb-10">
+					          <li class="list-inline-item mr-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Dribbble">
+					            <a target="_blank" href="https://dribbble.com/htmlstream" class="g-color-gray-dark-v4 g-color-pink--hover">
+					              <i class="fa fa-dribbble"></i>
+					            </a>
+					          </li>
+					          <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+					            <a target="_blank" href="https://www.facebook.com/htmlstream" class="g-color-gray-dark-v4 g-color-facebook--hover">
+					              <i class="fa fa-facebook"></i>
+					            </a>
+					          </li>
+					          <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram">
+					            <a target="_blank" href="https://www.instagram.com/htmlstream/" class="g-color-gray-dark-v4 g-color-instagram--hover">
+					              <i class="fa fa-instagram"></i>
+					            </a>
+					          </li>
+					          <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Github">
+					            <a target="_blank" href="https://github.com/htmlstream" class="g-color-gray-dark-v4 g-color-black--hover">
+					              <i class="fa fa-github"></i>
+					            </a>
+					          </li>
+					          <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
+					            <a target="_blank" href="https://twitter.com/htmlstream" class="g-color-gray-dark-v4 g-color-twitter--hover">
+					              <i class="fa fa-twitter"></i>
+					            </a>
+					          </li>
+					        </ul>
+
+
+		              <p class="mb-0">2017 &copy; All Rights Reserved.</p>
+		            </div>
+		            <!-- Sidebar Footer -->
+		          </div>
+		        </nav>
+		      </div>
+		    </div>
+		  </header>
+		  <!-- End Sidebar Navigation -->
+
+		  <!-- Topbar -->
+		  <section>
+				<div class="container d-none d-lg-block">
+					<div class="row align-items-center g-mt-30">
+						<div class="col-lg-6 g-mb-20 g-mb-0--lg">
+							<ul class="list-inline mb-0">
+								<li>
+									<a class="u-link-v5 g-color-gray-dark-v2 g-color-primary--hover" target="_blank" href="https://wrapbootstrap.com/theme/unify-responsive-website-template-WB0412697">
+										<i class="fa fa-external-link g-font-size-12 g-color-gray-dark-v5 g-mr-5"></i> Unify Item Page
+									</a>
+								</li>
+							</ul>
+						</div>
+
+						<div class="col-lg-6 text-left text-lg-right">
+							<p class="mb-0">With love <i class="fa fa-heart g-color-red g-mx-5"></i> Unify team.</p>
+			        <ul class="list-inline mb-0" hidden>
+			          <li class="list-inline-item mr-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Dribbble">
+			            <a href="#" class="g-color-gray-dark-v4 g-color-pink--hover">
+			              <i class="fa fa-dribbble"></i>
+			            </a>
+			          </li>
+			          <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+			            <a href="#" class="g-color-gray-dark-v4 g-color-facebook--hover">
+			              <i class="fa fa-facebook"></i>
+			            </a>
+			          </li>
+			          <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram">
+			            <a href="#" class="g-color-gray-dark-v4 g-color-instagram--hover">
+			              <i class="fa fa-instagram"></i>
+			            </a>
+			          </li>
+			          <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
+			            <a href="#" class="g-color-gray-dark-v4 g-color-twitter--hover">
+			              <i class="fa fa-twitter"></i>
+			            </a>
+			          </li>
+			        </ul>
+						</div>
+	        </div>
+				</div>
+			</section>
+		  <!-- End Topbar -->
+
+			<hr class="d-none d-lg-block g-brd-gray-light-v4 g-mb-40">
+
+			<div class="container-fluid">
+
+		  <!-- Introduction -->
+		  <section id="go-introduction">
+				<div class="container">
+					<div class="g-py-20 g-line-height-1_8">
+						<h1 class="g-color-gray-dark-v2 g-font-weight-300 g-mb-30">Introduction</h1>
+
+						<h2 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Welcome!</h2>
+						<p>Dear customers, first of all we would like to thank you for choosing Unify Template! We truly hope that Unify will serve you well, and that it will live up to your expectations.</p>
+						<p class="g-mb-50">We hope you will enjoy using Unify template's easy to navigate and user-friendly layout as well as developer-friendly code. Furthermore, a lot of resources have been employed and many options have been added just to make sure that our valued customers will be satisfied with their purchase.</p>
+
+						<h2 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Updates</h2>
+						<p>In order to keep up with the fast paced evolution of web design trends, we always try to release new updates on continuous basis. Our goal with each update is to impress our customers and to put huge smile on their faces.</p>
+						<p>We would like to bring to your attention that once you purchase Unify Template, you become eligible for a lifetime entitlement to download updates for FREE! On the other hand, we regret to inform you that license upgrade is not available. If you wish to upgrade your license, a new purchase must be made.</p>
+
+						<p class="g-mb-50">Current updated release is v2.2 which offers several new plugins, plenty of new designs options, Bootstrap 4, fully SASS support and much more. All changes can be found in the changelog section <a href="#go-changelog">here</a>. Our updates do not stop there as many more new amazing features are surely coming soon in the next updates. Thank you always for using Unify Template and for being a vital part of its success.</p>
+
+						<h2 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Support</h2>
+						<p>In Unify we believe that support is a crucial aspect of any successful product. Therefore, we try our very best to offer the most excellent support, and we always try everything within our power to assist our valued customers. It is worth to mention that our support mainly covers all design issues that one might encounter in addition to frontend-related issues as long as it is not complete customized work.</p>
+						<p class="g-mb-30">If you have any questions, please feel free to contact us at <a href="mailto:support@htmlstream.com">support@htmlstream.com</a> and we will do our best to get back to you within 24 hours. Sometimes it might take a bit longer, but we will do our best not to keep you waiting longer than 48 hours. You may also leave us a message through our social pages: <a target="_blank" class="u g-color-facebook" href="https://www.facebook.com/htmlstream">Facebook</a> and <a target="_blank" class="g-color-twitter" href="https://twitter.com/htmlstream">Twitter</a></p>
+
+						<ul class="list-unstyled mb-0">
+							<li class="g-mb-5">- Author: <a target="_blank" href="https://htmlstream.com">Htmlstream</a></li>
+							<li class="g-mb-5">- Product Page: <a target="_blank" href="https://wrapbootstrap.com/theme/unify-responsive-website-template-WB0412697">Unify - Responsive Website Template</a></li>
+							<li class="g-mb-5">- Created on: 24/04/2013</li>
+							<li>- Latest Update on: 08/09/2017</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+		  <!-- Introduction -->
+
+			<hr class="g-brd-gray-light-v4 g-my-80">
+
+		  <!-- File Structures -->
+		  <section id="go-file-structures">
+				<div class="container">
+					<div class="g-py-20 g-line-height-1_8">
+						<h2 class="h1 g-color-gray-dark-v2 g-font-weight-300 g-mb-30">File Structures</h2>
+
+						<!-- Download Package -->
+						<div class="g-mb-50">
+							<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Download Package</h3>
+							<p>The download package includes three folders html, documentation and psd folders. All the live demo examples are located inside the <code>html</code> folder. The <code>html</code> folder is a main source folder where all assets files are located.</p>
+
+		          <!-- Taglines -->
+		          <div class="hidden-xs-up g-brd-around g-brd-gray-light-v4 g-brd-left-2 g-brd-blue-left rounded g-pa-15" role="alert">
+		            <h3 class="h5 g-color-blue">Note!</h3>
+		            <p class="mb-0">Most of the PSD files are not included in the download package and should be downloaded separately through the provided dropbox link <a href="#">here</a>.</p>
+		          </div>
+		          <!-- End Taglines -->
+	          </div>
+						<!-- End Download Package -->
+
+						<!-- HTML Folder -->
+						<div>
+							<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">HTML Folder</h3>
+							<p class="g-mb-30">Unify comes with 5 complete packages such as "Unify Main", "E-Commerce", "Blog &amp; Template", "One Pages" and "Specialty Pages" packages. <span class="hidden-xs-up">In addition, Unify includes premium Revolution and Master Slider demos inside the package.</span> Unify does not stop there as many more new amazing packages like "Multi Page", "Admin Templates" and so on are coming soon.</p>
+
+		          <!-- Taglines -->
+		          <div class="g-brd-around g-brd-gray-light-v4 g-brd-left-2 g-brd-lightred-left rounded g-pa-15 g-mb-50" role="alert">
+		            <h5 class="g-color-lightred">Important!</h5>
+		            <p class="mb-0">Premium Revolution and Master Slider demos assets such as image and video files are not included in the download package and should be downloaded separately through the provided dropbox link. Please check out README.txt file inside the <code>html/revolution-slider</code> and <code>html/master-slider</code> folders for more detailed information inside.</p>
+		          </div>
+		          <!-- End Taglines -->
+
+							<h4 class="h5 g-color-gray-dark-v2 g-font-weight-600">HTML Folder Structures</h4>
+							<ul class="g-my-20">
+								<li class="g-mb-5"><code>assets</code> (all source files such as css, sass, js, images, plugins etc.)</li>
+								<li class="g-mb-5"><code>unify-main</code> (it is a main package which includes <strong class="g-color-gray-dark-v2 g-font-weight-600">all shortcodes demos and all packages are based on Unify Main package</strong>.)</li>
+								<li class="g-mb-5"><code>e-commerce</code> (contains more than 6 ready to use shop pages.)</li>
+								<li class="g-mb-5"><code>blog-magazine</code> (the package includes home and article page and over 50 news block options from the Unify Main can be used inside the package.)</li>
+								<li class="g-mb-5"><code>one-pages</code> (this package includes variety thematic designs. One Pages package contains over 15 thematic designs.)</li>
+								<li class="g-mb-5"><code>specialty-pages</code> (404 error, maintenance, coming-soon pages.)</li>
+								<li class="hidden-xs-up g-color-gray-dark-v5 g-mb-5"><code>email-templates</code> (comes with four design options such as "password reset", "product alarm", "purchase complete" and "registration complete".)</li>
+								<li class="g-mb-5"><code>revolution-slider</code> (includes over 90 slider demos)</li>
+								<li class="g-mb-5"><code>master-slider</code> (includes over 100 slider demos)</li>
+								<li><code>index.html</code> (Intro page)</li>
+							</ul>
+
+		          <!-- Taglines -->
+		          <div class="g-brd-around g-brd-gray-light-v4 g-brd-left-2 g-brd-blue-left rounded g-pa-15 g-mb-50" role="alert">
+		            <h5 class="g-color-blue">Info!</h5>
+		            <p class="mb-0">Unify packages, such as "E-Commerce", "Blog &amp; Template", "One Pages" and others do not include third party libraries inside its assets folder, they are globally linked to <code>HTML/assets/vendor/..</code> folder. All third party libraries like Bootstrap jQuery, Font Awesome etc. share same directory.</p>
+		          </div>
+		          <!-- End Taglines -->
+
+							<h4 class="h5 g-color-gray-dark-v2 g-font-weight-600">HTML <code>assets</code> Structures</h4>
+							<ul class="g-my-20">
+								<li class="g-mb-5"><code>css</code> (unify.css and custom.css)</li>
+								<li class="g-mb-5"><code>js</code> (custom.js, hs.core.js and all js init files including our custom js source files.)</li>
+								<li class="g-mb-5"><code>include</code> (scss, ajax and other source files.)</li>
+								<li class="g-mb-5"><code>img</code> (logos, patterns, custom icons and others)</li>
+								<li class="g-mb-5"><code>img-temp</code> (all content image files)</li>
+								<li class="g-mb-5"><code>figures</code> (svg files)</li>
+								<li class="g-mb-5"><code>vendor</code> (third party libraries like Bootstrap, jQuery etc.)</li>
+								<li class="g-color-gray-dark-v5"><code>style-switcher</code> (for live demo purpose only)</li>
+							</ul>
+
+							<p class="mb-0">Folder like <code>css</code>, <code>include</code>, <code>img</code>, <code>img-temp</code> etc. are shared within the main package "Unify Main" only. On the other hand, the packages like <code>One Pages</code>, <code>E-Commerce</code> and <code>Block &amp; Magazine</code> have their own <code>assets</code> folder for css and images.</p>
+	          </div>
+						<!-- End HTML Folder -->
+					</div>
+				</div>
+			</section>
+		  <!-- File Structures -->
+
+			<hr class="g-brd-gray-light-v4 g-my-80">
+
+		  <!-- CSS Structure -->
+		  <section id="go-css-structure">
+				<div class="container">
+					<div class="g-py-20 g-line-height-1_8">
+						<h2 class="h1 g-color-gray-dark-v2 g-font-weight-300 g-mb-30">CSS (SASS) Structure</h2>
+
+						<!-- CSS Architecture -->
+						<div class="g-mb-80">
+							<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">CSS Architecture</h3>
+							<p class="g-mb-30">Every STRONG project needs some file structure and organization. For that, already exist a lot of methodologies and solutions such as BEM, ITCSS, OOCSS, Atomic CSS and others. These methodologies help to maintain the project easily and scalably. For example, BEM is used by Google, BBC and many other large companies. Also, the authors of the mentioned methodologies are very experienced people in this field.</p>
+
+							<p>Each methodology has its own file structure, strict rules, recommendations and even coding structure. However, it is very hard to pick up only one of them and fully follow in our project - Unify 2. Here some reasons why It can not be used within the one methodology:</p>
+							<ul class="mb-0">
+								<li class="g-mb-10">Unify-2 provides design solutions for all type of projects, not only for one end product. Any component must be reusable in any pages. For example, "news block" component in Real Estate theme could be easily reusable in Travel theme.</li>
+								<li class="g-mb-10">Transformation: one component changes to another one. For example, "team block" component in Travel Theme can be easily transformed to "product block" in E-Commerce page without duplicating CSS code and losing its semantic class name.</li>
+								<li class="g-mb-10">Built with Bootstrap Framework. In other words, Unify-2 is fully depended on Bootstrap classes which breaks the ideologies of some methodologies.</li>
+							</ul>
+
+							<p>For that reason, we have picked best optimal practices and features from some popular methodologies and implemented into Unify-2. At the result, we came up with our own new file structure and methodology.</p>
+						</div>
+						<!-- End CSS Architecture -->
+
+						<!-- CSS (SASS) File Structure -->
+						<div class="g-mb-80">
+							<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">CSS (SASS) File Structure</h3>
+							<p>Here is how Unify-2 CSS (SASS) file structure looks like:</p>
+
+							<ul class="mb-0">
+								<li class="g-mb-5">Settings <code>settings</code>
+									<ul>
+										<li>Variables</li>
+									</ul>
+								</li>
+								<li class="g-mb-5">Tools <code>tools</code>
+									<ul>
+										<li>Mixins</li>
+										<li>Functions</li>
+									</ul>
+								</li>
+								<li class="g-mb-5">Core <code>core</code>
+									<ul>
+										<li>Default styles for tags (body, a, etc.)</li>
+									</ul>
+								</li>
+								<li class="g-mb-5">Vendors <code>vendors</code>
+									<ul>
+										<li>Overwrite codes of the third party plugins</li>
+									</ul>
+								</li>
+								<li class="g-mb-5">demo <code>demo</code>
+									<ul>
+										<li class="g-color-gray-dark-v5">For live demo purpose only (recommended to remove in the end product)</li>
+									</ul>
+								</li>
+								<li class="g-mb-5">Base (u-class-*) <code>base</code>
+									<ul>
+										<li>Base Components</li>
+									</ul>
+								</li>
+								<li class="g-mb-5">Blocks (u-class-*) <code>blocks</code>
+									<ul>
+										<li>Block Components</li>
+									</ul>
+								</li>
+								<li>IE <code>ie</code></li>
+								<li>JS <code>js</code></li>
+								<li class="g-mb-5">Custom <code>custom</code>
+									<ul>
+										<li>Custom codes for the end user (developer)</li>
+									</ul>
+								</li>
+								<li>Globals (g-class-*) <code>globals</code>
+									<ul>
+										<li>Global Immutable Classes</li>
+									</ul>
+								</li>
+								<li><code>custom.scss</code></li>
+								<li><code>unify-components.scss</code></li>
+								<li><code>unify-core.scss</code></li>
+								<li><code>unify-globals.scss</code></li>
+								<li><code>unify.scss</code></li>
+							</ul>
+						</div>
+						<!-- End CSS (SASS) File Structure -->
+
+						<!-- Naming Classes (Globals and Components) -->
+						<div class="g-mb-80">
+							<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Naming Classes <span class="g-font-weight-300">(Globals and Components)</span></h3>
+							<p>We use namespaces (prefixes) for the Blocks/Base Components and Core Globals classes. Both Globals and Components have their own rules.</p>
+							<p>The following table shows some examples of class names:</p>
+
+              <!-- Table Head Option -->
+              <div class="table-responsive g-mb-10">
+                <table class="table table-bordered">
+                  <thead>
+                    <tr class="thead-inverse">
+                      <th>Global Core</th>
+                      <th>Base Components</th>
+                      <th>Block Components</th>
+                    </tr>
+                  </thead>
+
+                  <tbody>
+                    <tr>
+                      <td>g-mb-20</td>
+                      <td>u-btn</td>
+                      <td>u-info-block-v1**</td>
+                    </tr>
+                    <tr>
+                      <td>g-pa-30</td>
+                      <td>u-tabs-v*</td>
+                      <td>u-info-block-v2**</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>u-badge</td>
+                      <td>u-info-block-v2-1</td>
+                    </tr>
+                    <tr>
+                      <td></td>
+                      <td>u-heading-v*</td>
+                      <td>u-info-block-v3</td>
+                    </tr>
+                      <td></td>
+                      <td></td>
+                      <td>etc.</td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!-- End Table Head Option -->
+
+              <p>*Can be any number/value e.g. <code>u-tabs-v3</code>, <code>u-accordion-v7</code> etc.</p>
+              <p class="mb-0">**Info block classes like <code>u-info-block-v*</code> can be team, product etc. block variations. Instead of team-block-v1, team-block-v2 classes, we use <code>u-info-block-v2-1</code>, <code>u-info-block-v2-2</code> etc. This method gives us to use any blocks differently in other pages. For example, the team block can be easily changed to product block with some Global classes. This approach (info block classes) helps us to keep <strong class="g-color-gray-dark-v2 g-font-weight-600">semantically correct</strong> block names in any situation.</p>
+						</div>
+						<!-- End Naming Classes (Globals and Components) -->
+
+						<!-- Globals (Globals Immutable Classes) -->
+						<div class="g-mb-80">
+							<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Globals <span class="g-font-weight-300">(Globals Immutable Classes)</span></h3>
+							<p>Core Global Classes use <code>g-*</code> prefix. Here are some rules for the Global Immutable Classes:</p>
+
+							<ul class="g-mb-30">
+								<!-- Item List -->
+								<li class="g-mb-10">Global classes are independent classes, they are not inherited from any other classes. Also, they can hold <code>!important</code> in CSS.</li>
+								<!-- End Item List -->
+
+								<!-- Item List -->
+								<li class="g-mb-20">Globals are <strong class="g-color-gray-dark-v2 g-font-weight-600">Immutable Classes</strong> which means they can not be changed or modified. For example:
+									<div class="g-my-10">
+										<span class="d-block g-color-gray-dark-v4 g-mb-10">CSS - <span class="g-color-red">Wrong</span>:</span>
+										<pre>
+											<code class="language-css">
+												.g-mb-50 {
+												  margin-bottom: 43px;
+												}
+											</code>
+										</pre>
+									</div>
+
+									<div class="g-my-10">
+										<span class="d-block g-color-gray-dark-v4">CSS - <span class="g-color-green">Correct</span>:</span>
+										<pre>
+											<code class="language-css">
+												.g-mb-50 {
+												 	margin-bottom: 50px !important;
+												}
+											</code>
+										</pre>
+									</div>
+								</li>
+								<!-- End Item List -->
+
+								<!-- Item List -->
+								<li class="g-mb-20">They <strong class="g-color-gray-dark-v2 g-font-weight-600">can not</strong> be overwritten as they are immutable classes. If you want to add or remove styles then you should edit via HTML. The following example code is <strong class="g-color-gray-dark-v2 g-font-weight-600">not suitable </strong> for Global Immutable Classes:
+									<div class="g-my-10">
+										<span class="d-block g-color-gray-dark-v4">CSS - <span class="g-color-red">Wrong</span>:</span>
+										<pre>
+											<code class="language-css">
+												.block-name .g-mb-20 {
+												 	z-index: 1;
+												}
+											</code>
+										</pre>
+									</div>
+
+									<div class="g-my-10">
+										<span class="d-block g-color-gray-dark-v4">HTML:</span>
+										<pre>
+											<code class="language-markup">
+												&lt;div class="block-name"&gt;
+													&lt;p class="g-mb-20"&gt;Some texts…&lt;/p&gt;
+												&lt;/div&gt;
+											</code>
+										</pre>
+									</div>
+
+									<hr class="g-brd-gray-light-v4 g-mt-25 g-mb-15">
+
+									<p class="g-mb-10">Instead, just use <code>g-z-index-1</code> class in HTML code. Otherwise, when the value of margin bottom changes to other value, z-index will not be applied.</p>
+
+									<div class="g-my-10">
+										<span class="d-block g-color-gray-dark-v4">HTML - <span class="g-color-green">Correct</span>:</span>
+										<pre>
+											<code class="language-markup">
+												&lt;div class="block-name"&gt;
+													&lt;p class="g-z-index-1 g-mb-20"&gt;Some texts…&lt;/p&gt;
+												&lt;/div&gt;
+											</code>
+										</pre>
+									</div>
+
+									<hr class="g-brd-gray-light-v4 g-mt-25 g-mb-15">
+
+									<p class="g-mb-10">However, If the case requires to use z-index within the block-name class then the new class should be added.</p>
+
+									<div class="g-my-10">
+										<span class="d-block g-color-gray-dark-v4">HTML:</span>
+										<pre>
+											<code class="language-markup">
+												&lt;div class="block-name"&gt;
+													&lt;p class="block-name__item g-mb-20"&gt;Some texts…&lt;/p&gt;
+												&lt;/div&gt;
+											</code>
+										</pre>
+									</div>
+
+									<div class="g-my-10">
+										<span class="d-block g-color-gray-dark-v4">CSS:</span>
+										<pre>
+											<code class="language-css">
+												.block-name__item {
+													z-index: 1;
+												}
+											</code>
+										</pre>
+									</div>
+								</li>
+								<!-- End Item List -->
+
+								<!-- Item List -->
+								<li>Global classes can accept modifiers. Modifiers are defined by double hyphens <code>g-class-*--*</code> and It can be used only in two conditions
+									<ul class="g-mt-10">
+										<li class="g-mb-5">For responsive mode <code>g-class--sm</code>, <code>g-class--md</code> etc.</li>
+										<li>For state classes like <code>:hover</code>, <code>::after</code>, <code>::before</code> etc. <code>g-class-*--hover</code>, <code>g-class-*--focus</code></li>
+									</ul>
+								</li>
+								<!-- End Item List -->
+							</ul>
+
+							<p>Overall, Global Classes can be used as a helper classes to extend any components by giving spacing (margins, paddings), text sizes, colors etc.. However, It is not limited with that, It is possible to build from scratch a new block component like product block, team block, news block etc. You may find some examples in Components (Base and Blocks) section.</p>
+						</div>
+						<!-- End Globals (Globals Immutable Classes) -->
+
+						<!-- Components (Base and Blocks) -->
+						<div class="g-mb-80">
+							<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Components <span class="g-font-weight-300">(Base and Blocks)</span></h3>
+							<p>Components are divided into two parts in Unify: <strong class="g-color-gray-dark-v2 g-font-weight-600">Base Components</strong> and <strong class="g-color-gray-dark-v2 g-font-weight-600">Block Components</strong>. The prefix of <code>u-*</code> class is used for both (Base and Blocks) Components.</p>
+
+							<ul class="g-my-20">
+								<li class="g-mb-5"><strong class="g-color-gray-dark-v2 g-font-weight-600">Base Components</strong> are usually small helper components to build Block Components. Base Components could be buttons, badges, icon styles, tabs, accordions etc.</li>
+								<li><strong class="g-color-gray-dark-v2 g-font-weight-600">Block Components</strong> are usually collection of Base Components with/without the Global Classes. It could be header, footer, news, product, team blocks etc.</li>
+							</ul>
+
+							<p>Also, BEM naming convention is applied for the both Base/Block Components. You may find some quick information about BEM naming convention in the following article here: <a target="_blank" href="https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax"> https://csswizardry.com/2013/01/mindbemding-getting-your-head-round-bem-syntax</a></p>
+
+							<p class="g-mb-40">However, in some cases Base/Blocks Components do not hold BEM naming convention. The reason is, sometimes default Bootstrap components are extended in Unify by offering more UI solutions. In addition, in many cases Base and Block Components can be fully built with Global Classes.</p>
+
+							<!-- Case #1 -->
+							<div class="g-mb-30">
+								<h4 class="h5 g-color-gray-dark-v2 g-font-weight-600">Case #1 <span class="g-font-weight-300">(Base Components)</span></h4>
+								<p class="g-mb-30">Base Components are extended by using default Bootstrap’s components. For example, Bootstrap buttons are extended in Unify Template to offer more stunning solutions. This gives flexibility to use pure Bootstrap buttons within the Unify Template. Here is an example code how it looks:</p>
+
+								<!-- Bootstrap Buttons -->
+								<div class="g-mb-30">
+									<h5 class="g-font-size-16 g-color-gray-dark-v2 g-mb-20">Bootstrap Buttons:</h5>
+
+	                <!-- Nav Tabs -->
+	                <ul class="nav u-nav-v4-1 u-nav-primary" role="tablist" data-target="bs-btn-tabs" data-tabs-mobile-type="slide-up-down" data-btn-classes="btn btn-md btn-block u-btn-outline-primary">
+	                  <li class="nav-item">
+	                    <a class="nav-link active" data-toggle="tab" href="#bs-btn-tabs--1" role="tab">Code</a>
+	                  </li>
+	                  <li class="nav-item">
+	                    <a class="nav-link" data-toggle="tab" href="#bs-btn-tabs--2" role="tab">Design</a>
+	                  </li>
+	                </ul>
+	                <!-- End Nav Tabs -->
+
+	                <!-- Tab Panes -->
+	                <div id="bs-btn-tabs" class="tab-content g-pt-20">
+	                  <div class="tab-pane fade show active" id="bs-btn-tabs--1" role="tabpanel">
+											<pre>
+												<code class="language-markup">
+													&lt;a href="#" class="btn btn-primary"&gt;Primary&lt;/a&gt;
+													&lt;a href="#" class="btn btn-outline-danger"&gt;Outline Danger&lt;/a&gt;
+													&lt;a href="#" class="btn btn-sm btn-success"&gt;Success&lt;/a&gt;
+													&lt;a href="#" class="btn btn-lg btn-warning"&gt;Warning&lt;/a&gt;
+												</code>
+											</pre>
+	                  </div>
+
+	                  <div class="tab-pane fade" id="bs-btn-tabs--2" role="tabpanel">
+											<a href="#" class="btn btn-primary mb-2">Primary</a>
+											<a href="#" class="btn btn-outline-danger mb-2">Outline Danger</a>
+											<a href="#" class="btn btn-sm btn-success mb-2">Success</a>
+											<a href="#" class="btn btn-lg btn-warning mb-2">Warning</a>
+	                  </div>
+	                </div>
+	                <!-- End Tab Panes -->
+                </div>
+								<!-- End Bootstrap Buttons -->
+
+								<!-- Unify Buttons -->
+								<div class="g-mb-30">
+									<h5 class="g-font-size-16 g-color-gray-dark-v2 g-mb-20">Unify Buttons</h5>
+
+	                <!-- Nav Tabs -->
+	                <ul class="nav u-nav-v4-1 u-nav-primary" role="tablist" data-target="unify-btn-tabs" data-tabs-mobile-type="slide-up-down" data-btn-classes="btn btn-md btn-block u-btn-outline-primary">
+	                  <li class="nav-item">
+	                    <a class="nav-link active" data-toggle="tab" href="#unify-btn-tabs--1" role="tab">Code</a>
+	                  </li>
+	                  <li class="nav-item">
+	                    <a class="nav-link" data-toggle="tab" href="#unify-btn-tabs--2" role="tab">Design</a>
+	                  </li>
+	                </ul>
+	                <!-- End Nav Tabs -->
+
+	                <!-- Tab Panes -->
+	                <div id="unify-btn-tabs" class="tab-content g-pt-20">
+	                  <div class="tab-pane fade show active" id="unify-btn-tabs--1" role="tabpanel">
+											<pre>
+												<code class="language-markup">
+													&lt;a href="#" class="btn btn-md u-btn-blue u-btn-3d"&gt;Blue 3d Button&lt;/a&gt;
+													&lt;a href="#" class="btn btn-lg u-btn-purple u-btn-inset"&gt;Purple Inset&lt;/a&gt;
+													&lt;a href="#" class="btn btn-lg u-btn-primary u-btn-hover-v1-1"&gt;Primary Hover v1-1 Style&lt;/a&gt;
+													&lt;a href="#" class="btn btn-md u-btn-darkgray u-btn-hover-v1-2"&gt;Black Hover v1-2 Style&lt;/a&gt;
+												</code>
+											</pre>
+	                  </div>
+
+	                  <div class="tab-pane fade" id="unify-btn-tabs--2" role="tabpanel">
+											<a href="#" class="btn btn-md u-btn-blue u-btn-3d g-mb-10">Blue 3d Button</a>
+											<a href="#" class="btn btn-lg u-btn-purple u-btn-inset g-mb-10">Purple Inset</a>
+											<a href="#" class="btn btn-lg u-btn-primary u-btn-hover-v1-1 g-mb-10">Primary Hover v1-1 Style</a>
+											<a href="#" class="btn btn-md u-btn-darkgray u-btn-hover-v1-2 g-mb-10">Black Hover v1-2 Style</a>
+	                  </div>
+	                </div>
+	                <!-- End Tab Panes -->
+                </div>
+								<!-- End Unify Buttons -->
+
+								<p class="g-mb-30">You may see from the above example codes, Unify buttons do not hold BEM naming convention. However, in some cases It can be used mixed BEM naming convention. Let’s look at the below example:</p>
+
+								<!-- Unify Buttons (BEM) -->
+								<div class="g-mb-30">
+	                <!-- Nav Tabs -->
+	                <ul class="nav u-nav-v4-1 u-nav-primary" role="tablist" data-target="unify-btn-tabs1" data-tabs-mobile-type="slide-up-down" data-btn-classes="btn btn-md btn-block u-btn-outline-primary">
+	                  <li class="nav-item">
+	                    <a class="nav-link active" data-toggle="tab" href="#unify-btn-tabs1--1" role="tab">Code</a>
+	                  </li>
+	                  <li class="nav-item">
+	                    <a class="nav-link" data-toggle="tab" href="#unify-btn-tabs1--2" role="tab">Design</a>
+	                  </li>
+	                </ul>
+	                <!-- End Nav Tabs -->
+
+	                <!-- Tab Panes -->
+	                <div id="unify-btn-tabs1" class="tab-content g-pt-20">
+	                  <div class="tab-pane fade show active" id="unify-btn-tabs1--1" role="tabpanel">
+											<pre>
+												<code class="language-markup">
+													&lt;a href="#" class="btn btn-md u-btn-skew u-btn-primary"&gt;<br>
+														&lt;span class="u-btn-skew__inner"&gt;Some texts…&lt;/span&gt;<br>
+													&lt;/a&gt;
+												</code>
+											</pre>
+	                  </div>
+
+	                  <div class="tab-pane fade" id="unify-btn-tabs1--2" role="tabpanel">
+											<a href="#" class="btn btn-md u-btn-skew u-btn-primary">
+												<span class="u-btn-skew__inner">Some texts…</span>
+											</a>
+	                  </div>
+	                </div>
+	                <!-- End Tab Panes -->
+                </div>
+								<!-- End Unify Buttons (BEM) -->
+
+								<p>The above example shows how button types could be used with the mixed BEM naming convention.</p>
+							</div>
+							<!-- End Case #1 -->
+
+							<hr class="g-brd-gray-light-v4 g-my-50">
+
+							<!-- Case #2 -->
+							<div class="g-mb-30">
+								<h4 class="h5 g-color-gray-dark-v2 g-font-weight-600">Case #2 <span class="g-font-weight-300">(Base Components)</span></h4>
+								<p class="g-mb-30">Base Components can be extended with the Global Classes. Here are some examples:</p>
+
+								<!-- Bootstrap Blockquote -->
+								<div class="g-mb-30">
+									<h5 class="g-font-size-16 g-color-gray-dark-v2 g-mb-20">Bootstrap Blockquote:</h5>
+
+	                <!-- Nav Tabs -->
+	                <ul class="nav u-nav-v4-1 u-nav-primary" role="tablist" data-target="bs-blockquote-tabs" data-tabs-mobile-type="slide-up-down" data-btn-classes="btn btn-md btn-block u-btn-outline-primary">
+	                  <li class="nav-item">
+	                    <a class="nav-link active" data-toggle="tab" href="#bs-blockquote-tabs--1" role="tab">Code</a>
+	                  </li>
+	                  <li class="nav-item">
+	                    <a class="nav-link" data-toggle="tab" href="#bs-blockquote-tabs--2" role="tab">Design</a>
+	                  </li>
+	                </ul>
+	                <!-- End Nav Tabs -->
+
+	                <!-- Tab Panes -->
+	                <div id="bs-blockquote-tabs" class="tab-content g-pt-20">
+	                  <div class="tab-pane fade show active" id="bs-blockquote-tabs--1" role="tabpanel">
+											<pre>
+												<code class="language-markup">
+													&lt;blockquote class="blockquote"&gt;
+														&lt;p class="mb-0"&gt;The best ideas come as jokes...&lt;/p&gt;
+														&lt;footer class="blockquote-footer"&gt;Author Name&lt;/footer&gt;
+													&lt;/blockquote&gt;
+												</code>
+											</pre>
+	                  </div>
+
+	                  <div class="tab-pane fade" id="bs-blockquote-tabs--2" role="tabpanel">
+											<blockquote class="blockquote">
+											  <p class="mb-0">The best ideas come as jokes...</p>
+											  <footer class="blockquote-footer">Author Name</footer>
+											</blockquote>
+	                  </div>
+	                </div>
+	                <!-- End Tab Panes -->
+                </div>
+								<!-- End Bootstrap Blockquote -->
+
+								<!-- Unify Blockquote -->
+								<div class="g-mb-30">
+									<h5 class="g-font-size-16 g-color-gray-dark-v2 g-mb-20">Unify Blockquote:</h5>
+
+	                <!-- Nav Tabs -->
+	                <ul class="nav u-nav-v4-1 u-nav-primary" role="tablist" data-target="unify-blockquote-tabs" data-tabs-mobile-type="slide-up-down" data-btn-classes="btn btn-md btn-block u-btn-outline-primary">
+	                  <li class="nav-item">
+	                    <a class="nav-link active" data-toggle="tab" href="#unify-blockquote-tabs--1" role="tab">Code</a>
+	                  </li>
+	                  <li class="nav-item">
+	                    <a class="nav-link" data-toggle="tab" href="#unify-blockquote-tabs--2" role="tab">Design</a>
+	                  </li>
+	                </ul>
+	                <!-- End Nav Tabs -->
+
+	                <!-- Tab Panes -->
+	                <div id="unify-blockquote-tabs" class="tab-content g-pt-20">
+	                  <div class="tab-pane fade show active" id="unify-blockquote-tabs--1" role="tabpanel">
+											<pre>
+												<code class="language-markup">
+													&lt;blockquote class="blockquote g-brd-2 g-brd-primary--hover g-font-size-18 text-uppercase g-transition-0_2"&gt;
+													  &lt;p class="g-mb-5"&gt;The best ideas come as jokes...&lt;/p&gt;
+													  &lt;footer class="blockquote-footer"&gt;Author Name&lt;/footer&gt;
+													&lt;/blockquote&gt;
+												</code>
+											</pre>
+	                  </div>
+
+	                  <div class="tab-pane fade" id="unify-blockquote-tabs--2" role="tabpanel">
+											<blockquote class="blockquote g-brd-2 g-brd-primary--hover g-font-size-18 text-uppercase g-transition-0_2">
+											  <p class="g-mb-5">The best ideas come as jokes...</p>
+											  <footer class="blockquote-footer">Author Name</footer>
+											</blockquote>
+	                  </div>
+	                </div>
+	                <!-- End Tab Panes -->
+                </div>
+								<!-- End Unify Blockquote -->
+							</div>
+							<!-- End Case #2 -->
+
+							<hr class="g-brd-gray-light-v4 g-my-50">
+
+							<!-- Case #3 -->
+							<div class="g-mb-30">
+								<h4 class="h5 g-color-gray-dark-v2 g-font-weight-600">Case #3 <span class="g-font-weight-300">(Block Components)</span></h4>
+								<p class="g-mb-30">Block Components can be built within the Global Classes. Here are the examples where news block are constructed with some Global Classes and Base Components. Also, It uses default Bootstrap classes. Please note, the news block does not use any Block Components Classes like <code>u-info-block-*</code></p>
+
+								<!-- Article -->
+								<div class="g-mb-30">
+									<h5 class="g-font-size-16 g-color-gray-dark-v2 g-mb-20">Article:</h5>
+
+	                <!-- Nav Tabs -->
+	                <ul class="nav u-nav-v4-1 u-nav-primary" role="tablist" data-target="unify-article-tabs" data-tabs-mobile-type="slide-up-down" data-btn-classes="btn btn-md btn-block u-btn-outline-primary">
+	                  <li class="nav-item">
+	                    <a class="nav-link active" data-toggle="tab" href="#unify-article-tabs--1" role="tab">Code</a>
+	                  </li>
+	                  <li class="nav-item">
+	                    <a class="nav-link" data-toggle="tab" href="#unify-article-tabs--2" role="tab">Design</a>
+	                  </li>
+	                </ul>
+	                <!-- End Nav Tabs -->
+
+	                <!-- Tab Panes -->
+	                <div id="unify-article-tabs" class="tab-content g-pt-20">
+	                  <div class="tab-pane fade show active" id="unify-article-tabs--1" role="tabpanel">
+											<pre>
+												<code class="language-markup">
+													&lt;!-- Article --&gt;
+													&lt;article class="u-shadow-v1-4"&gt;
+													  &lt;img class="img-fluid w-100" src="../html/assets/img-temp/500x450/img5.jpg" alt="Image Description"&gt;
+
+													  &lt;div class="g-pa-25"&gt;
+													    &lt;ul class="list-inline small g-color-gray-dark-v4 g-mb-20"&gt;
+													      &lt;li class="list-inline-item"&gt;
+													        &lt;a class="text-uppercase btn btn-xs u-btn-red rounded-0" href="#"&gt;Tech&lt;/a&gt;
+													      &lt;/li&gt;
+													      &lt;li class="list-inline-item"&gt;|&lt;/li&gt;
+													      &lt;li class="list-inline-item"&gt;July 02, 2017&lt;/li&gt;
+													    &lt;/ul&gt;
+
+													    &lt;h3 class="h2 g-font-weight-300 g-mb-40"&gt;
+													      &lt;a class="u-link-v5 g-color-main g-color-primary--hover" href="#"&gt;There are many great solutions in Unify for your business&lt;/a&gt;
+													    &lt;/h3&gt;
+
+													    &lt;div class="media g-font-size-12"&gt;
+													      &lt;img class="d-flex mr-2 rounded-circle g-width-30 g-height-30" src="../html/assets/img-temp/100x100/img1.jpg" alt="Image Description"&gt;
+													      &lt;div class="media-body align-self-center text-uppercase"&gt;
+													        &lt;a class="u-link-v5 g-color-main g-color-primary--hover" href="#"&gt;Htmlstream&lt;/a&gt;
+													      &lt;/div&gt;
+
+													      &lt;div class="align-self-center"&gt;
+													        &lt;a class="u-link-v5 g-color-main g-color-primary--hover g-mr-10" href="#"&gt;
+													          &lt;i class="icon-bubbles align-middle g-mr-2"&gt;&lt;/i&gt; 124
+													        &lt;/a&gt;
+													        &lt;a class="u-link-v5 g-color-main g-color-primary--hover" href="#"&gt;
+													          &lt;i class="icon-eye align-middle g-mr-2"&gt;&lt;/i&gt; 237
+													        &lt;/a&gt;
+													      &lt;/div&gt;
+													    &lt;/div&gt;
+													  &lt;/div&gt;
+													&lt;/article&gt;
+													&lt;!-- End Article --&gt;
+												</code>
+											</pre>
+	                  </div>
+
+	                  <div class="tab-pane fade" id="unify-article-tabs--2" role="tabpanel">
+	                  	<div class="row">
+	                  		<div class="col-lg-4">
+													<article class="u-shadow-v1-4">
+													  <img class="img-fluid w-100" src="../html/assets/img-temp/500x450/img5.jpg" alt="Image Description">
+
+													  <div class="g-pa-25">
+													    <ul class="list-inline small g-color-gray-dark-v4 g-mb-20">
+													      <li class="list-inline-item">
+													        <a class="text-uppercase btn btn-xs u-btn-red rounded-0" href="#">Tech</a>
+													      </li>
+													      <li class="list-inline-item">|</li>
+													      <li class="list-inline-item">July 02, 2017</li>
+													    </ul>
+
+													    <h3 class="h2 g-font-weight-300 g-mb-40">
+													      <a class="u-link-v5 g-color-main g-color-primary--hover" href="#">There are many great solutions in Unify for your business</a>
+													    </h3>
+
+													    <div class="media g-font-size-12">
+													      <img class="d-flex mr-2 rounded-circle g-width-30 g-height-30" src="../html/assets/img-temp/100x100/img1.jpg" alt="Image Description">
+													      <div class="media-body align-self-center text-uppercase">
+													        <a class="u-link-v5 g-color-main g-color-primary--hover" href="#">Htmlstream</a>
+													      </div>
+
+													      <div class="align-self-center">
+													        <a class="u-link-v5 g-color-main g-color-primary--hover g-mr-10" href="#">
+													          <i class="icon-bubbles align-middle g-mr-2"></i> 124
+													        </a>
+													        <a class="u-link-v5 g-color-main g-color-primary--hover" href="#">
+													          <i class="icon-eye align-middle g-mr-2"></i> 237
+													        </a>
+													      </div>
+													    </div>
+													  </div>
+													</article>
+												</div>
+											</div>
+	                  </div>
+	                </div>
+	                <!-- End Tab Panes -->
+                </div>
+								<!-- End Article -->
+							</div>
+							<!-- End Case #3 -->
+						</div>
+						<!-- End Components (Base and Blocks) -->
+
+						<!-- Globals VS Components Classes -->
+						<div>
+							<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">"Globals" VS "Components" Classes</h3>
+							<p>Well, when and how to use <code>u-*</code> and <code>g-*</code> classes? Definitely there is no exact answer, it fully depends on the situation. You may use <code>u-*</code> classes to build a news block but in the same time you can do it with the <code>g-*</code> classes as shown previously.</p>
+
+							<p class="g-mb-40">However, if it is possible to build the block with the <code>g-*</code> classes then the block should be built within the <code>g-*</code> classes. For example, almost all news blocks are built with <code>g-*</code> classes. it helps to reduce overwriting the styles and duplicating the massive code.</p>
+
+							<!-- Case #1 -->
+							<div class="g-mb-30">
+								<h4 class="h5 g-color-gray-dark-v2 g-font-weight-600">Case #1</h4>
+
+								<p class="g-mb-30">Almost, in all cases Base Components use u-* classes with the logical class names such as buttons, tabs, headings, paginations etc. Also, BEM naming convention uses where It needs. Please note, the below codes are just the samples.</p>
+
+								<h5 class="g-font-size-16 g-color-gray-dark-v2 g-mb-20">CSS:</h5>
+								<pre class="g-mb-30">
+									<code class="language-css">
+										.u-tabs-v1 {..}
+										.u-tabs-v1__item {..}
+										.u-tabs-v1__link {..}
+									</code>
+								</pre>
+
+								<h5 class="g-font-size-16 g-color-gray-dark-v2 g-mb-20">HTML:</h5>
+								<pre class="g-mb-30">
+									<code class="language-markup">
+										&lt;ul class="nav u-tabs-v1"&gt;
+										  &lt;li class="nav-item u-tabs-v1__item"&gt;
+										    &lt;a class="nav-link u-tabs-v1__link g-py-10 g-px-20 active"&gt;Home&lt;/a&gt;
+										  &lt;/li&gt;
+										  &lt;li class="nav-item u-tabs-v1__item"&gt;
+										    &lt;a class="nav-link u-tabs-v1__link g-py-10 g-px-20"&gt;Messages&lt;/a&gt;
+										  &lt;/li&gt;
+										  &lt;li class="nav-item u-tabs-v1__item"&gt;
+										    &lt;a class="nav-link u-tabs-v1__link g-py-10 g-px-20"&gt;Settings&lt;/a&gt;
+										  &lt;/li&gt;
+										&lt;/ul&gt;
+									</code>
+								</pre>
+
+								<p>Usually, Base Components include default styles in CSS but in most cases margins are used with <code>g-*</code> classes. Exceptions could be in <code>::before</code> and <code>::after</code> cases or in similar situations. However, as we have seen previously Base Components can be built within the <code>g-*</code> classes, the great example is <code>blockquote</code> component.</p>
+							</div>
+							<!-- End Case #1 -->
+
+							<hr class="g-brd-gray-light-v4 g-my-50">
+
+							<!-- Case #2 -->
+							<div>
+								<h4 class="h5 g-color-gray-dark-v2 g-font-weight-600">Case #2</h4>
+								<p class="mb-0">In many cases Block Components use <code>g-*</code> classes to build the blocks. However, in some cases Block Components hold <code>u-*</code> classes when the block includes complex animations or solutions which is hard to do with <code>g-*</code> classes. Also, if Block Components start with <code>u-*</code> class it should be always start with <code>u-info-*</code> classes except in header Block Components. Only header Block Components can hold <code>u-header-*</code> classes.</p>
+							</div>
+							<!-- End Case #2 -->
+						</div>
+						<!-- End Globals VS Components Classes -->
+					</div>
+				</div>
+			</section>
+		  <!-- CSS Structure -->
+
+			<hr class="g-brd-gray-light-v4 g-my-80">
+
+		  <!-- JavaScript Structure -->
+		  <section id="go-javaScript-structure">
+				<div class="container">
+					<div class="g-py-20 g-line-height-1_8">
+						<h1 class="g-color-gray-dark-v2 g-font-weight-300 g-mb-30">JavaScript Structure</h1>
+
+						<!-- Core JavaScript -->
+						<div class="g-mb-80">
+							<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Core JavaScript</h3>
+							<p class="g-mb-30">The foundation of the JavaScript structure in Unify is based on one main object which does not change the root when the new functionalities are added, but instead, it only expands without affecting the behavior of the core object. The name of the object is <code>HSCore</code> and the content of this object looks like this:</p>
+
+							<pre>
+								<code class="language-js">
+									/**
+									 * HSCore -
+									 *
+									 * @author HtmlStream
+									 * @version 1.0
+									 */
+
+									;(function($) {
+
+									  'use strict';
+
+									  $.HSCore = {
+									    init: function() {
+
+									      $(document).ready(function(e) {
+									        // here you can initialize all components core, which will be applied (called) in all pages,
+									        // once the DOM will be ready to go.
+
+									        // example
+									        $('[data-toggle="tooltip"]').tooltip();
+									      });
+
+									      $(window).on('load', function(e) {
+									        // here you can initialize all components core,
+									        // which should be called as soon as the all (scripts, videos, images) are loaded.
+
+													// example:
+													this.components.parallax.init({
+														...
+													});
+									      });
+
+									    },
+
+									    // Components
+									    components: {},
+
+									    // Helpers
+									    helpers: {},
+
+									    // Settings
+									    settings: {
+												animationEasing: ‘easeInQuad’, // example:
+												animationDuration: 450, // example:
+									      rtl: false
+									      ...
+									    }
+									  };
+
+									  $.HSCore.init(); // Initialization of HSCore object.
+
+									})(jQuery);
+								</code>
+							</pre>
+						</div>
+						<!-- End Core JavaScript -->
+
+						<!-- Essentials of HSCore Object -->
+						<div class="g-mb-80">
+							<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Essentials of HSCore Object</h3>
+
+							<!-- HSCore Settings -->
+							<div class="g-mb-40">
+								<h4 class="h5 g-color-gray-dark-v2 g-font-weight-600">HSCore Settings</h4>
+								<p><code>$.HSCore.settings</code> - here, all general settings are stored by default. For example, effects of jQuery animation, RTL version etc. and also you can store AJAX calls by default.</p>
+							</div>
+							<!-- End HSCore Settings -->
+
+							<!-- HSCore Helpers -->
+							<div class="g-mb-50">
+								<h4 class="h5 g-color-gray-dark-v2 g-font-weight-600">HSCore Helpers</h4>
+
+								<p><code>$.HSCore.helpers</code> - here, you can store helper functions in order to avoid repetition of codes or objects, which are often used by other core components (they are the part of a whole core). For example, a project needs to get the width of the browser's scrollbar and since it is different in all browsers you should write a tiny simple script. In this case, you may just place your script under the helpers.</p>
+
+								<p>In order to keep, the main file clear and easy to use, all helper components can be placed under the following path <code>HTML/assets/js/helpers/..</code></p>
+							</div>
+							<!-- HSCore Helpers -->
+
+							<!-- HSCore Components -->
+							<div class="g-mb-30">
+								<h4 class="h5 g-color-gray-dark-v2 g-font-weight-600">HSCore Components</h4>
+								<p><code>$.HSCore.components</code> - this is <strong class="g-color-gray-dark-v2 g-font-weight-600">the most voluminous (massive) component</strong>. Here you can include all the shortcodes and components of the template. The aim of this approach is to give developers as much flexibilities as possible by giving all major parameters of shortcode components via <code>data-*</code> attributes initializing.</p>
+
+								<p>As an example, let's take a look how a "ChartPies" plugin (library) is used within this JavaScript approach by creating decorator pattern (wrapper) around the plugin, where it automatically initialize the diagram on the basis of the <code>data-*</code> obtained. In the result, the initialization is pretty simple:</p>
+
+								<pre class="g-my-30">
+									<code class="language-js">
+										HSChartPie.init($(‘.js-pie’), {
+											// Here you can include the object with its settings or you can just skip it.
+										});
+									</code>
+								</pre>
+
+								<p>Such an object wrapper can be referred to the components and in a result the initialization looks like this:</p>
+
+								<pre class="g-my-30">
+									<code class="language-js">$.HSCore.components.chartPie.init();</code>
+								</pre>
+
+								<!-- Decorator Pattern (Wrapper) -->
+								<div>
+									<h5 class="g-font-size-16 g-color-gray-dark-v2 g-font-weight-600">Expanding (Extension) the Decorator Pattern (Wrapper)</h5>
+									<p>Extension such an object can be in separate files, which even gives flexibility to keep the main file clear and it is highly recommended. All wrappers of shortcodes' components are located under the following path <code>HTML/assets/js/components/..</code></p>
+
+									<p>Here is an example how decorator pattern (wrapper) looks like:</p>
+
+									<pre class="g-my-30">
+										<code class="language-js">
+											/**
+											 * Shortcode Component wrapper.
+											 *
+											 * @author Htmlstream
+											 * @version 1.0
+											 * @requires (also, it can be integrated with other plugins)
+											 *
+											 */
+											;(function($){
+												'use strict';
+
+												$.Unify.components.ShortcodeComponent = {
+
+													_baseConfig : {
+														// ...
+													},
+
+													/**
+													 * Initialization of ShortcodeComponent wrapper.
+													 *
+													 * @param jQuery collection (optional)
+													 * @param Object config (optional)
+													 *
+													 * @return jQuery pageCollection - collection of initialized items.
+													 */
+													init: function(collection, config) {
+
+														// ...
+
+													},
+
+													...
+
+												}
+
+											})(jQuery);
+										</code>
+									</pre>
+								</div>
+								<!-- End Decorator Pattern (Wrapper) -->
+							</div>
+							<!-- HSCore Components -->
+						</div>
+						<!-- End Essentials of HSCore Object -->
+
+						<!-- Core (Main) Advantages -->
+						<div>
+							<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Core (Main) Advantages</h3>
+
+							<ul class="mb-0">
+								<li class="g-mb-5">Avoiding the probabilities of conflicts between Unify codes and third party plugins (libraries).</li>
+								<li class="g-mb-5">Intuitive clear architecture.</li>
+								<li class="g-mb-5">Everything is structured, each component in its own file and in its component in the main object.</li>
+								<li class="g-mb-5">The ability of extending functionality without affecting the behavior of the core object and not changing the existing functionality.</li>
+								<li class="g-mb-5">By creating wrapper components, simply solves complicated initializations structures for the users.</li>
+								<li>Very easy access to any shortcodes components and core settings from anywhere in the template.</li>
+							</ul>
+						</div>
+						<!-- End Core (Main) Advantages -->
+					</div>
+				</div>
+			</section>
+		  <!-- JavaScript Structure -->
+
+			<hr class="g-brd-gray-light-v4 g-my-80">
+
+		  <!-- Shortcodes -->
+		  <section id="go-shortcodes">
+				<div class="container">
+					<div class="g-py-20 g-line-height-1_8">
+						<h1 class="g-color-gray-dark-v2 g-font-weight-300 g-mb-30">Shortcodes</h1>
+						<p>All the source codes of shortcodes components can be directly accessed from the shortcodes demo pages. It can be easily copied by single click in the <code>show code</code> link.</p>
+
+						<p>However, this shortcodes section will be improved very soon by adding more detailed information for the each specific plugins (libraries) which are used in Unify Template. Meanwhile, if you have any questions please feel free to contact us at <a href="mailto:support@htmlstream.com">support@htmlstream.com</a> and our support team will assist you.</p>
+					</div>
+				</div>
+			</section>
+		  <!-- Shortcodes -->
+
+		  <hr class="g-brd-gray-light-v4 g-my-80">
+
+			<!-- Starter Template -->
+		  <section id="go-starter-template">
+				<div class="container">
+					<div class="g-py-20 g-line-height-1_8">
+						<div class="g-mb-80">
+							<h1 class="g-color-gray-dark-v2 g-font-weight-300 g-mb-30">Starter Template</h1>
+							<p>Start with this basic HTML starter template, or modify any included layout pages. Be sure to have your pages set up with the latest design and development standards. That means using an HTML5 doctype and including a viewport meta tag for proper responsive behaviors. Put it all together and your pages should look like this:</p>
+
+							<pre class="g-my-30">
+								<code class="language-markup">
+								&lt;!DOCTYPE html&gt;
+								&lt;html lang="en"&gt;
+									&lt;head&gt;
+									  &lt;!-- Title --&gt;
+									  &lt;title&gt;Unify - Responsive Website Template&lt;/title&gt;
+
+									  &lt;!-- Required Meta Tags Always Come First --&gt;
+									  &lt;meta charset="utf-8"&gt;
+									  &lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+									  &lt;meta http-equiv="x-ua-compatible" content="ie=edge"&gt;
+
+									  &lt;!-- Favicon --&gt;
+									  &lt;link rel="shortcut icon" href="favicon.ico"&gt;
+
+									  &lt;!-- CSS Global Compulsory --&gt;
+									  &lt;link rel="stylesheet" href="assets/vendor/bootstrap/bootstrap.min.css"&gt;
+
+									  &lt;!-- CSS Unify --&gt;
+									  &lt;link rel="stylesheet" href="assets/css/unify.css"&gt;
+
+									  &lt;!-- CSS Customization --&gt;
+									  &lt;link rel="stylesheet" href="assets/css/custom.css"&gt;
+									&lt;/head&gt;
+									&lt;body&gt;
+									  &lt;main&gt;
+										  &lt;h1&gt;Hello, World!&lt;/h1&gt;
+									  &lt;/main&gt;
+
+									  &lt;!-- JS Global Compulsory --&gt;
+									  &lt;script src="assets/vendor/jquery/jquery.min.js"&gt;&lt;/script&gt;
+									  &lt;script src="assets/vendor/jquery-migrate/jquery-migrate.min.js"&gt;&lt;/script&gt;
+									  &lt;script src="assets/vendor/jquery.easing/js/jquery.easing.js"&gt;&lt;/script&gt;
+									  &lt;script src="assets/vendor/tether.min.js"&gt;&lt;/script&gt;
+									  &lt;script src="assets/vendor/bootstrap/bootstrap.min.js"&gt;&lt;/script&gt;
+
+									  &lt;!-- JS Unify --&gt;
+									  &lt;script src="assets/js/hs.core.js"&gt;&lt;/script&gt;
+									&lt;/body&gt;
+								&lt;/html&gt;
+								</code>
+							</pre>
+
+							<p>That’s all you need for overall page requirements. Visit our <a target="_blank" href="../html/index.html">demo examples</a> to start laying out your site’s content and components.</p>
+
+		          <!-- Taglines -->
+		          <div class="g-brd-around g-brd-gray-light-v4 g-brd-left-2 g-brd-blue-left rounded g-pa-15 g-mb-50" role="alert">
+		            <h5 class="g-color-blue">Info!</h5>
+		            <p class="mb-0">In addition, you may use <a target="_blank" href="../html/unify-main/misc/page-blank.html">Blank Page</a> example page where header and footer are linked.</p>
+		          </div>
+		          <!-- End Taglines -->
+						</div>
+
+						<!-- HTML5 Doctype -->
+						<div class="g-mb-80">
+							<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">HTML5 Doctype</h3>
+							<p>Unify along with Bootstrap require the use of the HTML5 doctype. Without it, you’ll see some funky incomplete styling, but including it shouldn’t cause any considerable hiccups.</p>
+
+							<pre class="g-my-30">
+								<code class="language-markup">
+								&lt;!DOCTYPE html&gt;
+								&lt;html lang="en"&gt;
+									...
+								&lt;/html&gt;
+								</code>
+							</pre>
+						</div>
+						<!-- End HTML5 Doctype -->
+
+						<!-- Responsive Meta Tag -->
+						<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Responsive Meta Tag</h3>
+						<p>Unify is developed mobile first, a strategy in which we optimize code for mobile devices first and then scale up components as necessary using CSS media queries. To ensure proper rendering and touch zooming for all devices, add the responsive viewport meta tag to your <code><head></code>.</p>
+
+						<pre class="g-my-30">
+							<code class="language-markup">
+							&lt;meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"&gt;
+							</code>
+						</pre>
+
+						<p>You can see an example of this in action in the <a href="#go-starter-template">starter template</a>.</p>
+						<!-- End Responsive Meta Tag -->
+					</div>
+				</div>
+			</section>
+		  <!-- Starter Template -->
+
+			<hr class="g-brd-gray-light-v4 g-my-80">
+
+		  <!-- Gulp -->
+		  <section id="go-gulp">
+				<div class="container">
+					<div class="g-py-20 g-line-height-1_8">
+						<h1 class="g-color-gray-dark-v2 g-font-weight-300 g-mb-30">Gulp</h1>
+						<p>Gulp is a command line task runner utilizing Node.js platform. It runs custom defined repetitious tasks and manages process automation. It allows you to do a lot of stuff within your development workflow. You can compile sass files, minify and compress js files and much more.</p>
+						<p>What makes Gulp different from other task runners is that it uses Node streams, piping output from one task as an input to the next. It reads a file once, processes it through multiple tasks, and then writes the output file. This results in faster builds because there is no need to create and read intermediary files on hard drive.</p>
+
+						<p>Unify includes <code>gulp.js</code> and <code>package.json</code> files to quick start. The installing and using Gulp with the included files are quite easy.</p>
+
+						<!-- Gulp.js Example -->
+						<div class="g-mb-50">
+							<p>Here is the example of how <code>gulpfile.js</code> in Unify looks like:</p>
+
+							<pre class="g-my-30">
+								<code class="language-js">
+									var gulp           = require('gulp'), // Gulp
+									    sass           = require('gulp-sass'), // SASS,
+									    gulp-changed   = require('gulp-changed'), // Save time on processing unchanged files
+									    autoprefixer   = require('gulp-autoprefixer'); // Add the desired vendor prefixes and remove unnecessary in SASS-files
+
+
+									//
+									// SASS
+									//
+
+									// Unify Main
+									gulp.task('sass', function() {
+									  return gulp.src('./html/assets/include/scss/**/*.scss')
+									    .pipe(changed('./html/assets/css/'))
+									    .pipe(sass({outputStyle:'expanded'}))
+									    .pipe(autoprefixer(['last 3 versions', '> 1%'], { cascade: true }))
+									    .pipe(gulp.dest('./html/assets/css/'))
+									});
+
+									// E-commerce
+									gulp.task('sass-shop', function() {
+									  return gulp.src('./html/e-commerce/assets/scss/**/*.scss')
+									    .pipe(changed('./html/e-commerce/assets/css/'))
+									    .pipe(sass({outputStyle:'expanded'}))
+									    .pipe(autoprefixer(['last 3 versions', '> 1%'], { cascade: true }))
+									    .pipe(gulp.dest('./html/e-commerce/assets/css/'))
+									});
+
+									// Blog & Magazine
+									gulp.task('sass-blog', function() {
+									  return gulp.src('./html/blog-magazine/classic/assets/scss/**/*.scss')
+									    .pipe(changed('./html/blog-magazine/classic/assets/css/'))
+									    .pipe(sass({outputStyle:'expanded'}))
+									    .pipe(autoprefixer(['last 3 versions', '> 1%'], { cascade: true }))
+									    .pipe(gulp.dest('./html/blog-magazine/classic/assets/css/'))
+									});
+
+									// One Page (Accounting Demo example, please change this path if you are using other demos)
+									gulp.task('sass-op', function() {
+									  return gulp.src('./html/one-pages/accounting/assets/scss/**/*.scss')
+									    .pipe(changed('./html/one-pages/accounting/assets/css/'))
+									    .pipe(sass({outputStyle:'expanded'}))
+									    .pipe(autoprefixer(['last 3 versions', '> 1%'], { cascade: true }))
+									    .pipe(gulp.dest('./html/one-pages/accounting/assets/css/'))
+									});
+
+									// Dark Theme
+									gulp.task('sass-dt', function() {
+									  return gulp.src('./html/examples/dark-theme/assets/scss/**/*.scss')
+									    .pipe(changed('./html/examples/dark-theme/assets/css/'))
+									    .pipe(sass({outputStyle:'expanded'}))
+									    .pipe(autoprefixer(['last 3 versions', '> 1%'], { cascade: true }))
+									    .pipe(gulp.dest('./html/examples/dark-theme/assets/css/'))
+									});
+
+
+									//
+									// Watch
+									//
+
+									gulp.task('watch', function() {
+									  gulp.watch('./html/assets/include/scss/**/*.scss', ['sass']);
+									});
+
+
+									//
+									// Default
+									//
+
+									gulp.task('default', ['watch']);
+								</code>
+							</pre>
+						</div>
+						<!-- End Gulp.js Example -->
+
+						<!-- Gulp.js Example -->
+						<div class="g-mb-80">
+							<p>Here is the example of how <code>package.json</code> in Unify looks like:</p>
+							<pre>
+								<code class="language-js">
+									{
+									  "name": "unify",
+									  "version": "2.0.0",
+									  "description": "",
+									  "main": "index.js",
+									  "dependencies": {},
+									  "devDependencies": {
+									    "gulp": "^3.9.1",
+									    "gulp-autoprefixer": "^3.1.1",
+									    "gulp-changed": "^1.3.2",
+									    "gulp-sass": "^3.1.0",
+									  },
+									  "scripts": {
+									    "test": "echo \"Error: no test specified\" && exit 1"
+									  },
+									  "author": "htmlstream",
+									  "license": "Under Wrapbootstrap LLC"
+									}
+								</code>
+							</pre>
+						</div>
+						<!-- End Gulp.js Example -->
+
+						<!-- Getting Started with Gulp.js -->
+						<div class="g-mb-50">
+							<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Getting Started with Gulp.js</h3>
+							<p>The goal of this tutorial is to introduce main concepts of Gulp that are used in Unify template and see it in action.</p>
+
+							<p>A brief overview of the steps to your first task:</p>
+
+							<ol>
+								<li>Install Node.js and Gulp.</li>
+								<li>Install NPM modules <code>package.json</code></li>
+								<li>Run Gulp</li>
+							</ol>
+						</div>
+						<!-- End Getting Started with Gulp.js -->
+
+						<!-- Install Node.js and Gulp -->
+						<div class="g-mb-50">
+							<h3 class="h5 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">1. Install Node.js and Gulp</h3>
+
+							<div class="g-mb-30">
+								<h4 class="h6 g-color-gray-dark-v2 g-font-weight-600">Installing Node.js</h4>
+								<p>If you do not have Node installed already, you can get it by <a target="_blank" href="https://nodejs.org/en/">downloading the package installer from Node's website</a>. Please download the stable version of Node.js (LTS) NOT the latest.</p>
+							</div>
+
+							<h4 class="h6 g-color-gray-dark-v2 g-font-weight-600">Installing Gulp</h4>
+							<p>You need to have Node.js (Node) installed onto your computer before you can install Gulp. When you're done with installing Node, you can install Gulp by using the following command in the command line:</p>
+
+							<p>Please note, first Gulp should be installed globally and for that reason <code>--global</code> command is used.</p>
+
+							<pre class="g-my-30">
+								<code class="language-js">
+									$ npm install --global gulp
+								</code>
+							</pre>
+
+							<div class="g-brd-around g-brd-gray-light-v4 g-brd-left-2 g-brd-lightred-left rounded g-pa-15 g-mb-30" role="alert">
+		            <h5 class="g-color-lightred">Important!</h5>
+		            <p class="mb-0">Note: If you are using MacOS please use <code>sudo</code> keyword. And remember the <code>$</code> in the code above just symbolizes the command prompt. That's not actually part of the command you run.</p>
+		          </div>
+
+	            <p>Now that you have Gulp installed, let's run Unify project and install that uses Gulp.</p>
+						</div>
+						<!-- End Install Node.js and Gulp -->
+
+						<!-- Install NPM modules -->
+						<div class="g-mb-80">
+							<h3 class="h5 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">2. Install NPM modules <code>package.json</code></h3>
+
+							<div class="g-mb-30">
+								<h4 class="h6 g-color-gray-dark-v2 g-font-weight-600">Installing NPM modules</h4>
+								<p>First, change the command line path into your project where Unify folder is located. if you have not done this before, you may check the following article to quick start <a target="_blank" href="http://www.digitalcitizen.life/command-prompt-how-use-basic-commands">http://www.digitalcitizen.life/command-prompt-how-use-basic-commands</a></p>
+							</div>
+
+							<p>Once the path of your workflow is changed to Unify folder, you may run <code>package.json</code> file by using the following command:</p>
+
+							<pre class="g-my-30">
+								<code class="language-js">
+									$ npm install
+								</code>
+							</pre>
+
+							<p>This time, we're installing Gulp with its all dependency plugins like <code>gulp-sass</code>, <code>gulp-autoprefixer</code> etc. It might take a couple of minutes depends on your internet connection.</p>
+
+							<p class="g-mb-30">If you check the project folder when the command has finished executing, you should see that Gulp has created a <code>node_modules</code> folder. Below an example screenshots in Windows (PC) and MacOS:</p>
+
+							<div class="row">
+								<div class="col-lg-6 g-mb-30 g-mb-0--lg">
+									<h5 class="h6 g-color-black g-font-weight-600">Windows (PC):</h5>
+									<img class="img-fluid g-brd-around g-brd-gray-light-v4" src="assets/img-temp/747x161/img1.jpg" alt="Image Description">
+								</div>
+
+								<div class="col-lg-6">
+									<h5 class="h6 g-color-black g-font-weight-600">MacOS:</h5>
+									<img class="img-fluid g-brd-around g-brd-gray-light-v4" src="assets/img-temp/747x161/img2.jpg" alt="Image Description">
+								</div>
+							</div>
+						</div>
+						<!-- End Install NPM modules -->
+
+						<!-- Run Gulp -->
+						<div class="g-mb-80">
+							<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Run Gulp</h3>
+							<p>Now we have an integrated workflow. To try it out run:</p>
+
+							<pre class="g-my-30">
+								<code class="language-js">
+									$ gulp
+								</code>
+							</pre>
+
+							<p class="g-mb-30">Now you can try making some changes to <code>assets/include/scss/unify.scss</code> and save it.</p>
+
+							<h4 class="h6 g-color-black">Sources:</h4>
+							<ol>
+								<li><a href="https://semaphoreci.com/community/tutorials/getting-started-with-gulp-js" target="_blank">Getting Started with Gulp Js</a> by <a href="https://semaphoreci.com/" target="_blank">Semaphoreci</a></li>
+								<li><a href="https://css-tricks.com/gulp-for-beginners/" target="_blank">Gulp for Beginners</a> by <a href="https://css-tricks.com/" target="_blank">CSS Tricks</a></li>
+								<li><a href="https://www.sitepoint.com/simple-gulpy-workflow-sass/" target="_blank">Simple Gulpy Workflow Sass</a> by <a href="https://www.sitepoint.com/" target="_blank">Sitepoint</a></li>
+							</ol>
+						</div>
+						<!-- End Run Gulp -->
+					</div>
+				</div>
+			</section>
+		  <!-- Gulp -->
+
+			<hr class="g-brd-gray-light-v4 g-my-80">
+
+		  <!-- Theme Colors -->
+		  <section id="go-theme-colors">
+				<div class="container">
+					<div class="g-py-20 g-line-height-1_8">
+						<h1 class="g-color-gray-dark-v2 g-font-weight-300 g-mb-30">Theme Colors</h1>
+						<p>There are two quick ways of changing theme color globally in all pages.</p>
+						<ol class="g-mb-50">
+							<li class="g-mb-10">By using SASS (SCSS) <span class="u-label g-bg-primary g-rounded-3 g-ml-5">Higly Recommended</span></li>
+							<li>Traditional (old) way; linking CSS file which includes predefined overwritten codes. <span class="u-label g-bg-lightred g-rounded-3 g-ml-5">Not Recommended</span></li>
+						</ol>
+
+						<div class="g-mb-50">
+							<h2 class="g-color-gray-dark-v2 g-font-weight-300 g-mb-30">By using SASS (SCSS)</h2>
+							<p> By using SASS (SCSS) which is recommended way as it does not duplicate the code, it just replaces whole used primary colors to your own. In addition, you may change anything from provided SASS files. For example, switch off unused components and switch on when they are needed. The possibilities are endless. Here is an example for changing the primary color:</p>
+
+							<ol>
+								<li>Open the file <code>_custom.variables.scss</code> from <code>html/assets/include/scss/custom/_custom.variables.scss</code></li>
+								<li>Add <code>$g-color-primary: #72c02c;</code> to the file.</li>
+							</ol>
+
+							<p>For example:</p>
+
+							<pre class="g-mb-30">
+								<code class="language-css">
+									// Add here all your customized variables
+
+									$g-color-primary: #72c02c;
+								</code>
+							</pre>
+
+							<p>Please note, <code>#72c02c</code> is the default color (green) of the Unify Template. You can change this color to any desired color of your choice.</p>
+
+							<p>For the list of available variables, please check out the file <code>_variables.scss</code> from the <code>html/assets/include/scss/settings/_variables.scss</code></p>
+
+							<div class="g-brd-around g-brd-gray-light-v4 g-brd-left-2 g-brd-blue-left rounded g-pa-15" role="alert">
+		            <h5 class="g-color-blue">Info!</h5>
+		            <p class="mb-0">Please make sure to compile the SASS (SCSS) files after editing them. Please check out <a href="#go-gulp">Gulp</a> section for more information. If you come across with any problems with Unify v2.x during the development process, please feel free to contact our support at <a href="mailto:support@htmlstream.com">support@htmlstream.com</a> and our team will assist you.</p>
+		          </div>
+						</div>
+
+						<div class="g-mb-50">
+							<h2 class="g-color-gray-dark-v2 g-font-weight-300 g-mb-30">Traditional (old) way</h2>
+							<p>Traditional (classic) way is using overwritten (re-written) predefined colors which we do not recommend doing this way as it duplicates the original code by overwriting to different (chosen) color. We are introducing Style Switcher (Beta) tool in Unify v2.2 where you are able to automatically generate your choice of color including layout styles and fonts. You may check the Style Switcher in our live demo pages.</p>
+							<p>The Style Switcher includes Get CSS button which opens a popup window when you click on it and you can copy the generated code and include to the <code>custom.css</code> file. In all HTML pages <code>custom.css</code> file already linked.</p>
+						</div>
+
+						<hr>
+
+						<p>If you come across with any problems, difficulties or need more information, please feel free to reach us at <a href="mailto:support@htmlstream.com">support@htmlstream.com</a> and our support team will assist you within a short time.</p>
+					</div>
+				</div>
+			</section>
+		  <!-- Theme Colors -->
+
+			<hr class="g-brd-gray-light-v4 g-my-80">
+
+		  <!-- Credits -->
+		  <section id="go-credits">
+				<div class="container">
+					<div class="g-py-20 g-line-height-1_8">
+						<h2 class="g-color-gray-dark-v2 g-font-weight-300 g-mb-30">Credits</h2>
+
+						<p class="g-mb-30">All third party plugins (libraries) are located in <code>HTML/assets/vendor/..</code> and image sources in <code>HTML/assets/img-temp/..</code></p>
+
+						<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Plugins (Libraries)</h3>
+
+						<!-- Credits Tabel -->
+						<div class="js-scrollbar table-responsive u-info-v1-1 g-bg-white-gradient-v1--after g-height-70vh g-min-height-400 g-mb-50">
+              <table class="table table-striped table-bordered">
+                  <thead>
+                      <tr>
+                          <th width="120">Name</th>
+                          <th class="hidden-sm-down">Description</th>
+                          <th>URL</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>Bootstrap</td>
+                          <td class="hidden-sm-down">Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web.</td>
+                          <td><a target="_blank" href="http://v4-alpha.getbootstrap.com">http://v4-alpha.getbootstrap.com</a></td>
+                      </tr>
+                      <tr>
+                          <td>jQuery</td>
+                          <td class="hidden-sm-down">jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation, and Ajax much simpler with an easy-to-use API that works across a multitude of browsers. With a combination of versatility and extensibility, jQuery has changed the way that millions of people write JavaScript.</td>
+                          <td><a target="_blank" href="http://jquery.com">http://jquery.com</a></td>
+                      </tr>
+                      <tr>
+                          <td>Font Awesome</td>
+                          <td class="hidden-sm-down">Font Awesome The iconic font designed for Bootstrap</td>
+                          <td><a target="_blank" href="http://fortawesome.github.io/Font-Awesome/">http://fortawesome.github.io/Font-Awesome/</a></td>
+                      </tr>
+                      <tr>
+                          <td>Simple Line Icons</td>
+                          <td class="hidden-sm-down">Simple Line Icons gives you 189 Icons that can instantly be customized — size, color and anything that can be done with the power of CSS.</td>
+                          <td><a target="_blank" href="http://simplelineicons.com/">http://simplelineicons.com/</a></td>
+                      </tr>
+                      <tr>
+                          <td>Slick Carousel</td>
+                          <td class="hidden-sm-down">Fully responsive. Scales with its container. Uses CSS3 when available. Swipe enabled. Or disabled, if you prefer etc.</td>
+                          <td><a target="_blank" href="http://kenwheeler.github.io/slick/">http://kenwheeler.github.io/slick/</a></td>
+                      </tr>
+                      <tr>
+                          <td>Circles</td>
+                          <td class="hidden-sm-down">Lightweight JavaScript library that generates circular graphs in SVG. Now with animation.</td>
+                          <td><a target="_blank" href="https://github.com/lugolabs/circles">https://github.com/lugolabs/circles</a></td>
+                      </tr>
+                      <tr>
+                          <td>The Final Countdown for jQuery</td>
+                          <td class="hidden-sm-down">A simple and html agnostic date countdown plugin for jQuery</td>
+                          <td><a target="_blank" href="http://hilios.github.io/jQuery.countdown/">http://hilios.github.io/jQuery.countdown/</a></td>
+                      </tr>
+                      <tr>
+                          <td>GMaps</td>
+                          <td class="hidden-sm-down">gmaps.js allows you to use the potential of Google Maps in a simple way. No more extensive documentation or large amount of code</td>
+                          <td><a target="_blank" href="http://hpneo.github.io/gmaps">http://hpneo.github.io/gmaps</a></td>
+                      </tr>
+                      <tr>
+                          <td>Masonry</td>
+                          <td class="hidden-sm-down">Masonry is a JavaScript grid layout library. It works by placing elements in optimal position based on available vertical space, sort of like a mason fitting stones in a wall. You’ve probably seen it in use all over the Internet.</td>
+                          <td><a target="_blank" href="http://masonry.desandro.com/">http://masonry.desandro.com/</a></td>
+                      </tr>
+                      <tr>
+                          <td>Vector Maps</td>
+                          <td class="hidden-sm-down">Many maps of the world, world regions, countries and cities are available for download from this site. All of them are made from the data in public domain or data licensed under the free licenses, so you can use them for any purpose free of charge.</td>
+                          <td><a target="_blank" href="http://jvectormap.com/">http://jvectormap.com/</a></td>
+                      </tr>
+                      <tr>
+                          <td>Appear JS</td>
+                          <td class="hidden-sm-down">Track the visibility of dom elements and fire user defined callbacks as they appear and disappear</td>
+                          <td><a target="_blank" href="http://creativelive.github.io/appear/">http://creativelive.github.io/appear/</a></td>
+                      </tr>
+                      <tr>
+                          <td>Animate.css</td>
+                          <td class="hidden-sm-down">CSS animation library</td>
+                          <td><a target="_blank" href="https://daneden.github.io/animate.css/">https://daneden.github.io/animate.css/</a></td>
+                      </tr>
+                      <tr>
+                          <td>Modernizr</td>
+                          <td class="hidden-sm-down">It’s a collection of superfast tests – or “detects” as we like to call them – which run as your web page loads, then you can use the results to tailor the experience to the user.</td>
+                          <td><a target="_blank" href="https://modernizr.com/">https://modernizr.com/</a></td>
+                      </tr>
+                      <tr>
+                          <td>Others</td>
+                          <td class="hidden-sm-down">The full list of table plugins and libraries which are used in Unify Template will be added very soon in our next updates.</td>
+                          <td>...</td>
+                      </tr>
+                  </tbody>
+              </table>
+            </div>
+						<!-- End Credits Tabel -->
+
+						<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Premium Plugins</h3>
+
+						<!-- Premium Plugins Table -->
+						<div class="js-scrollbar table-responsive u-info-v1-1 g-bg-white-gradient-v1--after g-height-70vh g-min-height-400 g-mb-50">
+              <table class="table table-striped table-bordered">
+                  <thead>
+                      <tr>
+                          <th width="120">Name</th>
+                          <th class="hidden-sm-down">Description</th>
+                          <th>URL</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td>Revolution Slider</td>
+                          <td class="hidden-sm-down">Slider Revolution is a fully developed slide displaying system offering the capability to show images, videos and captions paired with simple, modern and fancy 3D transitions. This plugin features tons of unique transition effects, an image preloader, video embedding, autoplay that stops on user interaction and lots of easy to set options to create your own effects. All customization can be handled via jQuery Options, HTML 5 data-attributes and CSS!</td>
+                          <td><a target="_blank" href="http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848?ref=htmlstream">http://codecanyon.net/item/slider-revolution-responsive-jquery-plugin/2580848</a></td>
+                      </tr>
+                      <tr>
+                          <td>Master Slider</td>
+                          <td class="hidden-sm-down">Master Slider is a premium image and content slider with super smooth hardware accelerated transitions. It supports touch navigation with pure swipe gesture that you have never experienced before. It’s a truly responsive and device friendly slider which works perfect in all major devices. Master Slider is an awesome layer slider as well, with the ability of adding any html contents (texts, images, …) in layers. It is easy to use, plus there are 25+ ready to use templates available for you. You almost have everything in Master slider which is the most complete among the best, hotspots, thumbnails, variety of effects, Video support and much more.</td>
+                          <td><a target="_blank" href="http://codecanyon.net/item/master-slider-jquery-touch-swipe-slider/6337671?ref=htmlstream">http://codecanyon.net/item/master-slider-jquery-touch-swipe-slider/6337671</a></td>
+                      </tr>
+                      <tr>
+                          <td>Cube Portfolio</td>
+                          <td class="hidden-sm-down">Cube Portfolio is a powerful jQuery plugin that provides beautiful animated filtering, custom captions and it’s perfect for portfolios, galleries, team members, blog posts or any other ordered content.</td>
+                          <td><a target="_blank" href="http://codecanyon.net/item/cube-portfolio-responsive-jquery-grid-plugin/6372959?ref=htmlstream">http://codecanyon.net/item/cube-portfolio-responsive-jquery-grid-plugin/6372959</a></td>
+                      </tr>
+                      <tr>
+                          <td>Parallaxer</td>
+                          <td class="hidden-sm-down">DZS Parallaxer is a script that turns any content into a cool parallax effect. It works smooth with any content you throw at it, images and even sliders, video players, basically any html content. It’s also the parallax that works flawless because of the algorithm behind.</td>
+                          <td><a target="_blank" href="https://codecanyon.net/item/parallaxer-parallax-effects-on-content/9256004?ref=htmlstream">https://codecanyon.net/item/parallaxer-parallax-effects-on-content/9256004</a></td>
+                      </tr>
+                      <tr>
+                          <td>FancyBox 3</td>
+                          <td class="hidden-sm-down">FancyBox is a tool that offers a nice and elegant way to add zooming functionality for images, html content and multi-media on your webpages. It is built on the top of the popular JavaScript framework jQuery and is both easy to implement and a snap to customize.</td>
+                          <td><a target="_blank" href="http://fancyapps.com/fancybox">http://fancyapps.com/fancybox</a></td>
+                      </tr>
+                  </tbody>
+              </table>
+						</div>
+						<!-- End Premium Plugins Table -->
+
+						<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Images and Design Sources</h3>
+
+						<!-- Images and Design Sources -->
+						<div class="g-mb-50">
+							<ul>
+								<li class="g-mb-5">Google Fonts: <a target="_blank" href="http://www.google.com/fonts">http://www.google.com/fonts</a></li>
+								<li>Unsplash Beautiful, free photos: <a target="_blank" href="http://unsplash.com">http://unsplash.com</a></li>
+								<li>Photo by DAVID ILIFF. License: CC-BY-SA 3.0: <a target="_blank" href="http://bit.ly/ZhuJG1">http://bit.ly/ZhuJG1</a></li>
+							</ul>
+						</div>
+						<!-- End Images and Design Sources -->
+
+						<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Premium Image and Design Sources</h3>
+
+						<!-- Premium Image and Design Sources -->
+						<div>
+							<ul class="mb-0">
+								<li class="g-mb-5">Peopleimages: Royalty Free Images and Stock Photos <a target="_blank" href="http://peopleimages.com/">http://peopleimages.com/</a></li>
+								<li class="g-mb-5">Deathtothestockphoto: Photos, videos &amp; other fuel for your creative projects. <a target="_blank" href="http://deathtothestockphoto.com/">http://deathtothestockphoto.com/</a></li>
+								<li>Scene Creators: From flat layouts to stationery mock up <a target="_blank" href="https://creativemarket.com/Qeaql/785709-Scene-Creators-Bundle?u=htmlstream">https://creativemarket.com/Qeaql/785709-Scene-Creators-Bundle</a></li>
+							</ul>
+						</div>
+						<!-- End Premium Image and Design Sources -->
+					</div>
+				</div>
+			</section>
+		  <!-- Credits -->
+
+			<hr class="g-brd-gray-light-v4 g-my-80">
+
+		  <!-- Upgrade -->
+		  <section id="go-upgrade">
+				<div class="container">
+					<div class="g-py-20 g-line-height-1_8">
+						<h2 class="g-color-gray-dark-v2 g-font-weight-300 g-mb-30">Upgrade</h2>
+
+						<div class="g-brd-around g-brd-gray-light-v4 g-brd-left-2 g-brd-lightred-left rounded g-pa-15 g-mb-50" role="alert">
+	            <h5 class="g-color-lightred">Note!</h5>
+	            <p>Please do not forget to <strong>backup your files before the upgrade</strong>. If you come across with any problems with Unify v2.x during the upgrade and development processes, please feel free to contact our support at <a href="mailto:support@htmlstream.com">support@htmlstream.com</a> and our team will assist you within a short time.</p>
+	            <p class="mb-0">In addition, Please include all your custom SCSS(SASS) and JavaScript codes to <code>custom.scss</code> and <code>custom.js</code> files before the upgrading to the latest version. Otherwise, you may lose your custom styles during the upgrade. The files are located in <code>html/assets/include/scss/custom/custom.css</code> and <code>html/assets/js/custom.js</code></p>
+	          </div>
+
+						<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Unify v2.2</h3>
+						<p>We suggest to check Bootstrap Beta 1 ship list page: <a href="https://github.com/twbs/bootstrap/issues/21568">https://github.com/twbs/bootstrap/issues/21568</a></p>
+						<ul class="g-mb-40">
+							<li class="g-mb-15">
+								In all navigation menu <code>navbar-toggleable-md</code> changed to <code>navbar-expand-lg</code> during Bootstrap beta upgrade. In addition, <code>g-top-3</code> class is added to toggler button in headers.
+							</li>
+							<li class="g-mb-15">
+								Some minor changes in forms
+							</li>
+							<li class="g-mb-15">
+								Dropped all responsive utilities classes, now display utilities classes should be used
+							</li>
+							<li class="g-mb-15">
+								Renamed flexbox order utilities classes
+							</li>
+							<li class="g-mb-15">
+								Replaced <code>tether.js</code> to <code>popper.js</code>
+							</li>
+							<li class="g-mb-15">
+								Added <code>_custom.mixins.scss</code> and <code>_custom.variables.scss</code>, now all custom variables can be included into <code>_custom.variables.scss</code> file.
+							</li>
+							<li class="g-mb-15">
+								<code>unify.scss</code> is split to <code>unify-components.scss</code>, <code>unify-core.scss</code>, <code>unify-globals.scss</code> and now in all HTML pages split CSS files are linked. However, <code>unify.scss</code> still can be used as one large file.
+							</li>
+						</ul>
+
+						<p>Please check out <a href="#go-changelog">changelog</a> section for other changes.</p>
+
+						<hr class="g-brd-gray-light-v4 g-my-50">
+
+						<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Unify v2.1</h3>
+						<ul class="g-mb-40">
+							<li class="g-mb-15">
+								Revolution Slider demos <code>html/revolution-slider/index.html</code> Please check it out <code>README.txt</code> file inside the <code>html/revolution-slider/..</code> folder. The file includes a separate download link with protected password for Revolution Slider demos. The total size of the slider demos is huge (around 320 MB) and for that reason it is included as a separate download link. If you would like to use the slider demos, you should just need to unzip the <code>revolution-slider.zip</code> inside <code>html/revolution-slider/..</code> after downloading it and all demos will work same as live demo pages. There is no need for any other manual work, only needs to be downloaded and unzipped inside the correct path (place).
+							</li>
+							<li class="g-mb-15">
+								Master Slider demos <code>html/master-slider/index.html</code> The Master Slider demos also includes <code>README.txt</code> file as Revolution Slider folder which includes a download link with protected password for Master Slider. Please just follow the above (Revolution Slider) instructions.
+							</li>
+
+							<li class="g-mb-15">
+								Removed Simple Line Icons CSS link is removed from the <code>specialty-pages/coming-soon/page-coming-soon-1.html</code> (No Simple Line Icons used in this page)
+							</li>
+
+							<li class="g-mb-15">
+								Removed unify.css link across all One Page demo options. (This reason being is that each One Page option includes its own CSS file with prefixed name)
+							</li>
+
+							<li class="g-mb-15">
+								Removed tooltips js init codes $(‘[data-toggle=“tooltip”]‘).tooltip(); across all HTML pages and placed into <code>hs.core.js</code>
+							</li>
+
+							<li class="g-mb-15">
+								Removed unused/duplicated JavaScripts init codes from HTML pages
+							</li>
+
+							<li class="g-mb-15">
+								Removed <code>@import "OLD/tabs-v1" to @import "OLD/tabs-v12"</code> are removed from <code>assets/include/scss/base/tabs/_tabs.scss</code> (since, they are old and unused stylesheets anymore)
+							</li>
+
+							<li class="g-mb-15">
+								theme/custom.scss file is moved from scss folder to less folder.
+							</li>
+
+							<li class="g-mb-15">
+								<div>Dzsparallaxer <code>.load()</code> jquery events are replace by <code>.on('load', callback())</code></div>
+							</li>
+						</ul>
+
+						<p>Please check out <a href="#go-changelog">changelog</a> section for other changes.</p>
+
+						<hr class="g-brd-gray-light-v4 g-my-50">
+
+						<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Unify v2.0</h3>
+
+						<h4 class="h5 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">The Next Generation of Unify Template</h4>
+
+						<p class="g-mb-30">The next generation of Unify Template is finally arrived after a year development and we hope you will love it. <strong class="g-color-gray-dark-v2 g-font-weight-600">Unify v2.0 has been fully re-written from scratch </strong> and loaded with tons of new modern possibilities, approaches and features. However, the upgrade from <code>v1.9.x</code> to <code>v2.x</code> is <strong class="g-color-gray-dark-v2 g-font-weight-600">almost impossible because of massive changes to the core of the code</strong>.</p>
+
+						<h4 class="h5 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">What is the reason behind for this massive changes in Unify 2?</h4>
+
+						<p>Our team has began to develop this new methodology and structure, for <code>v2.0</code>, more than a year ago. During the last 4 years we have started receiving a huge number of requests from our customers about the implementation of Sass, Bootstrap 4, Flexbox, easy to use of JavaScript, HTML and CSS code structure. The decision was made through consultations with several high profile programmers, designers and users of Unify Template, to provide the best experience for everyone. One of the most wanted request was reusability of components though the packages.</p>
+
+						<p>In addition, the base of Unify <code>v1.x</code> is written more than four years ago with Bootstrap <code>v2.x</code> and since that time, approaches in front-end development is drastically changed. Creation of new demo options and delivery regular updates had significantly become difficult with the <code>1.9.x</code> version. For that reason, the decision was made to introduce the most versatile and powerful template for Unify users. Moreover, when it comes to larger, more complex projects, well organized code is the key to efficiency.</p>
+
+						<p>The idea behind these changes, are to divide the user interface into independent blocks. This makes interface development easy and fast even with complex designs and it allows reuse of existing code without copying and pasting. In v2.x Unify JavaScript elements are controlled from data attributes. Headers, Google Maps, Lightbox, Cubeportfolio, Slick carousel, Charts, Counters, HTML5 video backgrounds, Parallax effects and all other plug-ins are now invoked through data attributes. In particular, the colors, designs, classes and functions can all be controlled with the help of data attributes.</p>
+
+						<p>For example, let's take a look to the Google Maps shortcode component in v2.x Unify:</p>
+
+						<pre class="g-my-30">
+							<code class="language-markup">
+
+								&lt;!-- Google Maps --&gt;
+								&lt;div id="GMapCustomized-light" class="js-g-map embed-responsive embed-responsive-21by9 g-height-300"
+								   data-type="custom"
+								   data-lat="40.674"
+								   data-lng="-73.946"
+								   data-zoom="12"
+								   data-title="Agency"
+								   data-styles='[["", "", [{"saturation":-100},{"lightness":51},{"visibility":"simplified"}]], ["", "labels", [{"visibility":"on"}]], ["water", "", [{"color":"#bac6cb"}]] ]'
+								   data-pin="true"
+								   data-pin-icon="../../assets/img/icons/pin/green.png"&gt;
+								&lt;/div&gt;
+							</code>
+						</pre>
+
+						<p class="g-mb-30">As you can see from the above code, you do not have to dive into the JavaScript code anymore and write any codes. Now, you can just dynamically change it.</p>
+
+						<div class="g-brd-around g-brd-gray-light-v4 g-brd-left-2 g-brd-blue-left rounded g-pa-15" role="alert">
+	            <h5 class="g-color-blue">Info!</h5>
+	            <p class="mb-0">If you come across with any problems with Unify v2.x during the development process, please feel free to contact our support at <a href="mailto:support@htmlstream.com">support@htmlstream.com</a> and our team will assist you.</p>
+	          </div>
+					</div>
+				</div>
+			</section>
+		  <!-- Upgrade -->
+
+			<hr class="g-brd-gray-light-v4 g-my-80">
+
+		  <!-- Changelog -->
+		  <section id="go-changelog">
+		  	<div class="container">
+					<div class="g-py-20 g-line-height-1_8">
+						<h2 class="g-color-gray-dark-v2 g-font-weight-300 g-mb-30">Changelog</h2>
+
+						<div class="g-brd-around g-brd-gray-light-v4 g-brd-left-2 g-brd-lightred-left rounded g-pa-15 g-mb-50" role="alert">
+	            <h5 class="g-color-lightred">Note!</h5>
+	            <p class="mb-0">Please do not forget to backup your files before the upgrade. If you come across with any problems with Unify v2.x during the upgrade and development processes, please feel free to contact our support at <a href="mailto:support@htmlstream.com">support@htmlstream.com</a> and our team will assist you within a short time.</p>
+	          </div>
+
+						<!-- Unify v2.2 -->
+						<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Unify v2.2 <small class="text-muted">08 September, 2017</small></h3>
+						<ul class="list-unstyled g-mb-40">
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Style Switcher (Beta) - choose unlimited colors, change layout styles (wide, boxed, semi-boxed), select predefined Google Fonts and outer spaces then instantly download your custom styles right from the Style Switcher.</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Nunjucks templating language (Beta)</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>4 Blog &amp; Magazine Home Pages <code>html/blog-magazine/classic/..</code>
+									<ul>
+										<li><code>bm-classic-home-page-2.html</code></li>
+										<li><code>bm-classic-home-page-3.html</code></li>
+										<li><code>bm-classic-home-page-4.html</code></li>
+										<li><code>bm-classic-home-page-5.html</code></li>
+									</ul>
+								</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Over 35 Shop Pages <code>html/e-commerce/..</code>
+									<ul>
+										<li><code>home-page-2.html</code></li>
+										<li><code>home-page-3.html</code></li>
+										<li><code>page-addresses-1.html</code></li>
+										<li><code>page-cancelled-orders-1.html</code></li>
+										<li><code>page-category-left-sidebar-1.html</code></li>
+										<li><code>page-category-no-sidebar-1.html</code></li>
+										<li><code>page-category-no-sidebar-2.html</code></li>
+										<li><code>page-category-no-sidebar-3.html</code></li>
+										<li><code>page-category-no-sidebar-4.html</code></li>
+										<li><code>page-category-right-sidebar-1.html</code></li>
+										<li><code>page-checkout-1.html</code></li>
+										<li><code>page-coming-soon-1.html</code></li>
+										<li><code>page-contact-1.html</code></li>
+										<li><code>page-empty-cart-1.html</code></li>
+										<li><code>page-grid-filter-left-sidebar-1.html</code></li>
+										<li><code>page-grid-filter-no-sidebar-1.html</code></li>
+										<li><code>page-grid-filter-no-sidebar-2.html</code></li>
+										<li><code>page-grid-filter-no-sidebar-3.html</code></li>
+										<li><code>page-grid-filter-no-sidebar-4.html</code></li>
+										<li><code>page-grid-filter-right-sidebar-1.html</code></li>
+										<li><code>page-help-1.html</code></li>
+										<li><code>page-list-filter-left-sidebar-1.html</code></li>
+										<li><code>page-list-filter-no-sidebar-1.html</code></li>
+										<li><code>page-list-filter-no-sidebar-2.html</code></li>
+										<li><code>page-list-filter-no-sidebar-3.html</code></li>
+										<li><code>page-list-filter-no-sidebar-4.html</code></li>
+										<li><code>page-list-filter-right-sidebar-1.html</code></li>
+										<li><code>page-login-1.html</code></li>
+										<li><code>page-login-security-1.html</code></li>
+										<li><code>page-notifications-1.html</code></li>
+										<li><code>page-open-orders-1.html</code></li>
+										<li><code>page-order-completed-1.html</code></li>
+										<li><code>page-orders-1.html</code></li>
+										<li><code>page-our-stores-1.html</code></li>
+										<li><code>page-password-recovery-1.html</code></li>
+										<li><code>page-payment-options-1.html</code></li>
+										<li><code>page-signup-1.html</code></li>
+										<li><code>page-single-product-1.html</code></li>
+										<li><code>page-single-product-2.html</code></li>
+										<li><code>page-single-product-3.html</code></li>
+										<li><code>page-wallet-1.html</code></li>
+										<li><code>page-wishlist-1.html</code></li>
+									</ul>
+								</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Promo Block (demo 34) <code>html/unify-main/shortcodes/promo/shortcode-blocks-promo-demo-34.html</code></div>
+							</li>
+						</ul>
+
+						<hr class="g-brd-gray-light-v4">
+
+						<ul class="list-unstyled g-mb-40">
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>Documentation</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>Shortcodes sidebar's search panel - type and press enter to search components</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>SASS file structure</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>Google Maps -  added multiple markers</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>E-commerce - design of the header has been improved.</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>Blog &amp; Magazine - design of the header has been improved.</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>Show/Copy Code in shortcodes pages</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>Promo block of the Jobs Page - changed the form layout <code>page-jobs-1.html</code></div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>Promo block demo #1 - improved the form layout <code>shortcode-blocks-promo-demo-1.html</code>, <code>home-page-8.html</code></div>
+							</li>
+						</ul>
+
+						<hr class="g-brd-gray-light-v4">
+
+						<ul class="list-unstyled g-mb-40">
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-pink g-rounded-3 g-mr-10">Fixed</span></div>
+								<div>Custombox (modals) -  newspaper and hashlink demos</div>
+							</li>
+						</ul>
+						<hr class="g-brd-gray-light-v4">
+
+						<ul class="list-unstyled g-mb-40">
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-teal g-rounded-3 g-mr-10">Updated</span></div>
+								<div>Bootstrap - v4.0.0-beta</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-teal g-rounded-3 g-mr-10">Updated</span></div>
+								<div>Custombox - v4.0.3</div>
+							</li>
+						</ul>
+						<!-- End Unify v2.2 -->
+
+						<hr class="g-brd-gray-light-v4">
+
+						<!-- Unify v2.1 -->
+						<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Unify v2.1 <small class="text-muted">03 August, 2017</small></h3>
+						<ul class="list-unstyled g-mb-40">
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Brand new Shortcodes Pages, now easily find any shortcodes with search bar and filtering navigation from side panel menu (sidebar). <code>unify-main/shortcodes/index.html</code></div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>GulpJS - automate all your work (SASS compiling, concatenate, minify etc.)</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Go to Top (Back to Top) in-house plugin developed by Htmlstream Team, comes various design options are added across all Unify pages. There are 3 styles which can be controlled via class name <code>u-go-to-v*</code> (*can be any number e.g. u-go-to-v1, u-go-to-v2, u-go-to-v3 etc.).</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Consulting One Page Demo <code>html/one-pages/consulting/index.html</code></div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Corporate One Page Demo <code>html/one-pages/corporate/index.html</code></div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Misc pages; Boxed Layout, Dark Theme, Blank Page etc <code>html/unify-main/misc/..</code></div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>90+ Revolution Slider demos <code>html/revolution-slider/index.html</code> Please check it out <code>README.txt</code> file inside the <code>html/revolution-slider/..</code> folder. The file includes a separate download link with protected password for Revolution Slider demos. The total size of the slider demos is huge (around 320 MB) and for that reason it is included as a separate download link. If you would like to use the slider demos, you should just need to unzip the <code>revolution-slider.zip</code> inside <code>html/revolution-slider/..</code> after downloading it and all demos will work same as live demo pages. There is no need for any other manual work, only needs to be downloaded and unzipped inside the correct path (place).</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>100+ Master Slider demos <code>html/master-slider/index.html</code> The Master Slider demos also includes <code>README.txt</code> file as Revolution Slider folder which includes a download link with protected password for Master Slider. Please just follow the above (Revolution Slider) instructions.</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Promo Block (demo 32)<code>html/unify-main/shortcodes/promo/shortcode-blocks-promo-demo-32.html</code></div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Promo Block (demo 33)<code>html/unify-main/shortcodes/promo/shortcode-blocks-promo-demo-33.html</code></div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Hero Content (demo 12)<code>html/unify-main/shortcodes/shortcode-blocks-hero-content.html</code></div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Pricing Plans (demo 15)<code>html/unify-main/shortcodes/shortcode-blocks-pricing-plans.html</code></div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Icon Blocks Interactive (demo 18)<code>html/unify-main/shortcodes/shortcode-blocks-icons-interactive.html</code></div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Static Process Blocks (demo 05)<code>html/unify-main/shortcodes/shortcode-blocks-hero-content.html</code></div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Counters (demo 32)<code>html/unify-main/shortcodes/shortcode-blocks-counters.html</code></div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Classic Footers (demo 14)<code>html/unify-main/shortcodes/footers/shortcode-blocks-footer-classic.html</code></div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Footer Contact Forms (demo 13)<code>html/unify-main/shortcodes/footers/shortcode-blocks-footer-contact-forms.html</code></div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Team Blocks (demo 15)<code>html/unify-main/shortcodes/shortcode-blocks-team.html</code></div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Team Advanced (demo 09)<code>html/unify-main/shortcodes/shortcode-blocks-team-advanced.html</code></div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Testimonials (demo 25)<code>html/unify-main/shortcodes/shortcode-blocks-testimonials.html</code></div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Testimonials Advanced (demo 14)<code>html/unify-main/shortcodes/shortcode-blocks-testimonials-advanced.html</code></div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Testimonials Advanced (demo 15)<code>html/unify-main/shortcodes/shortcode-blocks-testimonials-advanced.html</code></div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>News Blocks (demo 34)<code>html/unify-main/shortcodes/shortcode-blocks-news.html</code></div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Clients (demo 12)<code>html/unify-main/shortcodes/shortcode-blocks-clients.html</code></div>
+							</li>
+						</ul>
+
+						<hr class="g-brd-gray-light-v4">
+
+						<ul class="list-unstyled g-mb-40">
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>Documentation - added started template section, detailed gulp instructions for converting SASS (SCSS) to CSS etc.</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>SCSS stylesheet are refactored (it is a disciplined technique for restructuring an existing body of code, altering its internal structure without changing its external behavior)</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>Show/Copy Code in shortcode pages and added show/copy code feature to missed components</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>All Headers pages (added active style)</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>Slick Carousel (added <code>ondemand</code> option and various minor improvements)</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>Added jquery-migrate.min.js to all Unify Pages</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>Added subnavigation to the Accounting One Page demo <code>dev/one-pages/accounting/example-with-submenu.html</code></div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>Added custom.js file across all HTML pages</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-blue g-rounded-3 g-mr-10">Enhanced</span></div>
+								<div>Sticky Block (added secondary navigation option)</div>
+							</li>
+						</ul>
+
+						<hr class="g-brd-gray-light-v4">
+
+						<ul class="list-unstyled g-mb-20">
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-pink g-rounded-3 g-mr-10">Fixed</span></div>
+								<div>Mega Menus tabs on Mobile resolutions</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-pink g-rounded-3 g-mr-10">Fixed</span></div>
+								<div>Various IE11 fixes including headers, slick carousel, parallax etc.</div>
+							</li>
+						</ul>
+						<!-- End Unify v2.1 -->
+
+						<p>Please check out the <a href="#go-upgrade">Upgrade</a> section for other minor fixes/changes.</p>
+
+						<hr class="g-brd-gray-light-v4">
+
+						<!-- Unify v2.1 -->
+						<h3 class="h4 g-color-gray-dark-v2 g-font-weight-600 g-mb-20">Unify v2.0 <small class="text-muted">05 July, 2017</small></h3>
+						<p>Unify v2.0 has been fully re-written from scratch and changelog includes only the most important implementations, improvements and features. You may check the <a href="#go-upgrade">upgrade</a> section why Unify has been re-written from scratch.</p>
+
+						<p class="g-mb-30">Overall, what's new in Unify v2.0? Unify v2.0 comes with the latest Bootstrap 4 version and now any component can be used within the any packages (demos, pages, sections etc.). In addition, Unify <code>v2.0</code> comes with <strong class="g-color-gray-dark-v2 g-font-weight-600"> over 250 shortcode pages</strong> which is twice more than <code>v1.9.x</code> and all components in each shortcode pages are massively extended.</p>
+
+						<ul class="list-unstyled g-mb-40">
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div><strong class="g-color-gray-dark-v2 g-font-weight-600">Bootstrap 4</strong> (Unify v2.0 fully compatible with the latest version of Bootstrap 4)</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Full <strong class="g-color-gray-dark-v2 g-font-weight-600">SASS (SCSS)</strong> support (all components in separate files, It provides powerful control over CSS)</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+
+								<div>
+									Ultimate control over the Headers (Unify v2.0 includes <strong class="g-color-gray-dark-v2 g-font-weight-600">over 80 header</strong> options)
+									<ul class="g-my-10">
+										<li class="g-mb-10">Positions (static, absolute top, absolute bottom, absolute. 2nd screen, sticky top, sticky bottom)</li>
+										<li class="g-mb-10">On Scroll Behaviors (show/hide header, change logo, change appearance, toggle header, hide top bar)</li>
+										<li class="g-mb-10">Navigation's mobile behavior (default - "top", push- "sidebar", overlay - "sidebar")</li>
+										<li class="g-mb-10">Navigation's mobile behavior (default - "top", push- "sidebar", overlay - "sidebar")</li>
+										<li class="g-mb-10">Submenu &amp; Megamenu (onHover method, onClick method, inline submenu, megamenu column - "2, 3, etc.", megamenu horizontal/vertical tab etc.)</li>
+										<li class="g-mb-10">CSS Animated Hamburgers Icons (slider, squeeze, arrow etc.)</li>
+									</ul>
+									For more detailed demos, please check out the shortcode header page - <code>unify-main/shortcodes/headers/index.html</code>
+								</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div><strong class="g-color-gray-dark-v2 g-font-weight-600">More than 30</strong> new Promo Blocks</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>
+									<strong class="g-color-gray-dark-v2 g-font-weight-600">Over 500</strong> new Shortcode Components
+									<ul class="g-my-10">
+										<li class="g-mb-10">Alerts</li>
+										<li class="g-mb-10">Dividers</li>
+										<li class="g-mb-10">Icons</li>
+										<li class="g-mb-10">Badges</li>
+										<li class="g-mb-10">Accordions</li>
+										<li class="g-mb-10">Tabs</li>
+										<li class="g-mb-10">Badges</li>
+										<li class="g-mb-10">Paginations</li>
+										<li class="g-mb-10">Google Maps</li>
+										<li class="g-mb-10">List Groups</li>
+										<li class="g-mb-10">Product Blocks</li>
+										<li class="g-mb-10">Testimonial Blocks</li>
+										<li class="g-mb-10">Beautiful Galleries Options</li>
+										<li class="g-mb-10">Icon Blocks</li>
+										<li class="g-mb-10">News Blocks</li>
+										<li class="g-mb-10">Countdowns Blocks</li>
+										<li class="g-mb-10">Table Demos</li>
+										<li class="g-mb-10">News Blocks</li>
+										<li class="g-mb-10">Clients Blocks</li>
+										<li class="g-mb-10">Counters Blocks</li>
+										<li class="g-mb-10">User Blocks</li>
+										<li class="g-mb-10">and many others..</li>
+									</ul>
+								</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Popup Modals - <code>unify-main/shortcodes/shortcode-base-modals.html</code></div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Smooth Parallax</div>
+							</li>
+
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Home Pages (all home pages are re-designed and extended with new design page)</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Blog Pages (all block pages are re-designed and now comes with <strong class="g-color-gray-dark-v2 g-font-weight-600">over 40 pages</strong>)</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Search Pages (all search pages are re-designed and added other options)</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Jobs Page (currently comes with two new design pages main and inner)</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Profile Pages (all profile pages are re-designed and added with more options)</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Contact Pages (all contact pages are re-designed and added other new pages)</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-green g-rounded-3 g-mr-10">New</span></div>
+								<div>Other New Pages (Unify v2.0 includes lots of other new page designs such as login, register, pricing, portfolios, faq etc.)</div>
+							</li>
+						</ul>
+
+						<hr class="g-brd-gray-light-v4">
+
+						<ul class="list-unstyled g-mb-40">
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-lightred g-rounded-3 g-mt-6 g-mr-10">Dropped</span></div>
+								<div>Landing Pages Package (they will be added back to the One Pages package in our next updates but currently all the components can be used and included in v2.0 Unify.)</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-lightred g-rounded-3 g-mr-10">Dropped</span></div>
+								<div>Sky Forms Pro (all forms are completely rewritten from scratch)</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-lightred g-rounded-3 g-mt-6 g-mr-10">Dropped</span></div>
+								<div>Layer Slider (since Unify already includes other premium sliders (Revolution and Master Slider), we have decided to drop it as included premium slider already includes same functionality)</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-lightred g-rounded-3 g-mt-6 g-mr-10">Dropped</span></div>
+								<div>Other Plugins/Libraries (however, most of them are replaced with more efficient plugins/libraries. For example, Owl Carousel has been replaced with Slick Carousel.)</div>
+							</li>
+						</ul>
+
+						<hr class="g-brd-gray-light-v4">
+
+						<ul class="list-unstyled g-mb-40">
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-cyan g-rounded-3 g-mr-10">Coming Soon</span></div>
+								<div>RTL Version</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-cyan g-rounded-3 g-mr-10">Coming Soon</span></div>
+								<div>PSD Sources</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-cyan g-rounded-3 g-mr-10">Coming Soon</span></div>
+								<div>Classic One Page Demos</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-cyan g-rounded-3 g-mr-10">Coming Soon</span></div>
+								<div>Coming Soon Pages</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-cyan g-rounded-3 g-mr-10">Coming Soon</span></div>
+								<div>Error Pages</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-cyan g-rounded-3 g-mr-10">Coming Soon</span></div>
+								<div>Email Templates</div>
+							</li>
+							<li class="d-flex g-mb-15">
+								<div><span class="u-label g-bg-cyan g-rounded-3 g-mr-10">Coming Soon</span></div>
+								<div>Other missed features which Unify v1.x included</div>
+							</li>
+						</ul>
+						<!-- End Unify v2.1 -->
+
+						<div class="g-brd-around g-brd-gray-light-v4 g-brd-left-2 g-brd-blue-left rounded g-pa-15" role="alert">
+	            <h5 class="g-color-blue">Info!</h5>
+	            <p class="mb-0">If you are looking the old changelog for <strong class="g-color-gray-dark-v2 g-font-weight-600">Unify</strong> <code>v1.x</code>, please click <a target="_blank" href="https://htmlstream.com/preview/item-page/changelog.txt">here</a> to see the full changelog.</p>
+	          </div>
+					</div>
+				</div>
+			</section>
+		  <!-- Changelog -->
+
+			<hr class="g-brd-gray-light-v4 g-my-80">
+
+		  <!-- End of Documentation -->
+		  <section id="go-end-of-documentation">
+				<div class="container">
+					<div class="g-py-20 g-line-height-1_8">
+						<h1 class="g-color-gray-dark-v2 g-font-weight-300 g-mb-30">End of Documentation</h1>
+						<p class="lead g-color-gray-dark-v2 g-font-weight-600">Once again, thank you for purchasing Unify Template!</p>
+
+						<p>If you have any questions, please feel free to contact us at <a href="mailto:support@htmlstream.com">support@htmlstream.com</a> and we will do our best to get back to you within 24 hours. It might take a bit longer, but we try hard not to keep you waiting longer than 48 hours. You may also leave us a message through our social pages: <a target="_blank" class="u g-color-facebook" href="https://www.facebook.com/htmlstream">Facebook</a> and <a target="_blank" class="g-color-twitter" href="https://twitter.com/htmlstream">Twitter</a></p>
+
+						<hr class="g-brd-gray-light-v4">
+
+            <!-- Footer -->
+            <div class="d-md-flex justify-content-md-between g-py-20">
+              <p class="g-mb-10 g-mb-0--md">2017 &copy; All Rights Reserved.</p>
+
+              <p class="g-mx-30--md g-mb-10 g-mb-0--md">With love <i class="fa fa-heart g-color-red g-mx-5"></i> Unify team.</p>
+
+			        <ul class="list-inline g-mb-0">
+			          <li class="list-inline-item mr-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Dribbble">
+			            <a target="_blank" href="https://dribbble.com/htmlstream" class="g-color-gray-dark-v4 g-color-pink--hover">
+			              <i class="fa fa-dribbble"></i>
+			            </a>
+			          </li>
+			          <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+			            <a target="_blank" href="https://www.facebook.com/htmlstream" class="g-color-gray-dark-v4 g-color-facebook--hover">
+			              <i class="fa fa-facebook"></i>
+			            </a>
+			          </li>
+			          <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Instagram">
+			            <a target="_blank" href="https://www.instagram.com/htmlstream/" class="g-color-gray-dark-v4 g-color-instagram--hover">
+			              <i class="fa fa-instagram"></i>
+			            </a>
+			          </li>
+			          <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Github">
+			            <a target="_blank" href="https://github.com/htmlstream" class="g-color-gray-dark-v4 g-color-black--hover">
+			              <i class="fa fa-github"></i>
+			            </a>
+			          </li>
+			          <li class="list-inline-item g-mx-10" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
+			            <a target="_blank" href="https://twitter.com/htmlstream" class="g-color-gray-dark-v4 g-color-twitter--hover">
+			              <i class="fa fa-twitter"></i>
+			            </a>
+			          </li>
+			        </ul>
+            </div>
+            <!-- Footer -->
+					</div>
+				</div>
+			</section>
+		  <!-- End of Documentation -->
+
+		  </div>
+		</main>
+
+		<!-- JS Global Compulsory -->
+		<script src="../html/assets/vendor/jquery/jquery.min.js"></script>
+    <script src="../html/assets/vendor/popper.min.js"></script>
+		<script src="../html/assets/vendor/bootstrap/bootstrap.min.js"></script>
+
+    <!-- JS Implementing Plugins -->
+  	<!-- <script src="../html/assets/vendor/jquery.easing/js/jquery.easing.js"></script> -->
+    <script src="../html/assets/vendor/malihu-scrollbar/jquery.mCustomScrollbar.concat.min.js"></script>
+
+    <!-- Show / Copy Code -->
+    <script src="../html/assets/vendor/prism/prism.js"></script>
+    <script src="../html/assets/vendor/prism/components/prism-markup.min.js"></script>
+    <script src="../html/assets/vendor/prism/components/prism-css.min.js"></script>
+    <script src="../html/assets/vendor/prism/components/prism-clike.min.js"></script>
+    <script src="../html/assets/vendor/prism/components/prism-javascript.min.js"></script>
+    <script src="../html/assets/vendor/prism/plugins/toolbar/prism-toolbar.min.js"></script>
+    <script src="../html/assets/vendor/prism/plugins/normalize-whitespace/prism-normalize-whitespace.min.js"></script>
+    <script src="../html/assets/vendor/prism/plugins/copy-to-clipboard/prism-copy-to-clipboard.min.js"></script>
+
+    <!-- JS Unify -->
+    <script src="../html/assets/js/hs.core.js"></script>
+    <script src="../html/assets/js/components/hs.header-side.js"></script>
+    <script src="../html/assets/js/components/hs.scroll-nav.js"></script>
+    <script src="../html/assets/js/helpers/hs.hamburgers.js"></script>
+    <script src="../html/assets/js/components/hs.scrollbar.js"></script>
+		<script src="../html/assets/js/components/hs.tabs.js"></script>
+    <script src="../html/assets/js/components/hs.scrollbar.js"></script>
+
+    <!-- JS Plugins Init. -->
+    <script>
+      ;(function ($) {
+        'use strict';
+        $(document).on('ready', function () {
+          // Header
+          $.HSCore.components.HSHeaderSide.init($('#js-header'));
+          $.HSCore.helpers.HSHamburgers.init('.hamburger');
+
+          // Initialization of HSScrollNav
+          $.HSCore.components.HSScrollNav.init($('#js-scroll-nav'), {
+            duration: 700,
+            easing: 'easeOutExpo'
+          });
+
+	        // Initialization of HSScrollBar component
+	        $.HSCore.components.HSScrollBar.init( $('.js-scrollbar') );
+
+          // Tabs
+          $.HSCore.components.HSTabs.init('[role="tablist"]');
+        });
+
+        $(window).on('resize', function () {
+          setTimeout(function () {
+          	// Tabs
+            $.HSCore.components.HSTabs.init('[role="tablist"]');
+          }, 200);
+        });
+      })(jQuery);
+
+    	// Google Maps
+      function initMap() {
+        $.HSCore.components.HSGMap.init('.js-g-map');
+      }
+    </script>
+    <!-- End JS Plugins Init. -->
+	</body>
+</html>

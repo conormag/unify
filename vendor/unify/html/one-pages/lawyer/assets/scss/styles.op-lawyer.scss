@@ -1,0 +1,147 @@
+//
+// Variables and Mixins
+//
+@import "variables.op-lawyer";
+@import "../../../../assets/include/scss/unify";
+
+/* Typography */
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+  font-family: $g-font-secondary;
+  color: $g-theme-color-gray-dark-v1;
+}
+
+p {
+  @include px-to-rem("font-size", 16px);
+}
+
+a {
+  &:hover,
+  &:active,
+  &:focus {
+    color: $g-color-primary;
+  }
+}
+
+small,
+.small {
+  @include px-to-rem("font-size", 10px);
+}
+
+/* Hamburger */
+.hamburger {
+  padding: 0;
+}
+
+.hamburger-box,
+.hamburger-inner,
+.hamburger-inner::after,
+.hamburger-inner::before {
+  width: 25px;
+}
+
+.u-header__section--dark .hamburger-inner,
+.u-header__section--dark .hamburger-inner::after,
+.u-header__section--dark .hamburger-inner::before {
+  background-color: $g-color-primary;
+
+  .hamburger:hover & {
+    background-color: $g-color-primary;
+  }
+}
+
+.hamburger-box {
+  height: 17px;
+}
+
+.hamburger--slider .hamburger-inner {
+  top: 0;
+}
+
+.hamburger--slider .hamburger-inner:before {
+  top: 8px;
+}
+
+.hamburger--slider .hamburger-inner:after {
+  top: 16px;
+}
+
+.hamburger--slider.is-active .hamburger-inner:after {
+  transform: translate3d(0, -16px, 0) rotate(-90deg);
+}
+
+/* Main navigation */
+.navbar-nav {
+  .nav-item .nav-link {
+    color: $g-color-gray-dark-v3;
+  }
+
+  .nav-item .nav-link:hover,
+  .nav-item.active .nav-link {
+    color: $g-color-primary;
+  }
+}
+
+/* Colors */
+.g-theme-color-gray-dark-v1 {
+  color: $g-theme-color-gray-dark-v1 !important;
+
+  &--hover:hover {
+    color: $g-theme-color-gray-dark-v1 !important;
+  }
+}
+
+/* Background */
+.g-theme-bg-gray-dark-v1 {
+  background-color: $g-theme-color-gray-dark-v1 !important;
+
+  &--hover:hover {
+    background-color: $g-theme-color-gray-dark-v1 !important;
+  }
+
+  &-opacity {
+    &-0_9 {
+      background-color: rgba($g-theme-color-gray-dark-v1, .9) !important;
+    }
+  }
+}
+
+/* Border */
+.g-brd-primary {
+  &--hover:hover {
+    border-color: $g-color-primary !important;
+  }
+}
+
+.g-theme-brd-gray-dark-v2 {
+  border-color: $g-theme-color-gray-dark-v2 !important;
+
+  &--hover:hover {
+    border-color: $g-theme-color-gray-dark-v2 !important;
+  }
+}
+
+/* Non-standard background */
+.u-ns-bg-v1-bottom.g-theme-bg-gray-dark-v1::before,
+.g-parent.g-theme-bg-gray-dark-v1 .u-ns-bg-v1-bottom::before {
+  border-top-color: $g-theme-color-gray-dark-v1;
+}
+
+.u-ns-bg-v1-top.g-theme-bg-gray-dark-v1::before,
+.g-parent.g-theme-bg-gray-dark-v1 .u-ns-bg-v1-top::before {
+  border-bottom-color: $g-theme-color-gray-dark-v1;
+}
+
+/* Revolution slider */
+.tp-caption.NotGeneric-Title,
+.NotGeneric-Title,
+.tp-caption.NotGeneric-SubTitle,
+.NotGeneric-SubTitle,
+.tp-caption.NotGeneric-CallToAction,
+.NotGeneric-CallToAction {
+  font-family: "Open Sans", sans-serif;
+}

@@ -1,0 +1,88 @@
+// Variables and Mixins
+@import "variables.op-accounting";
+@import "../../../../assets/include/scss/unify";
+
+/* Background */
+.g-theme-bg-gray-dark-v1 {
+  background-color: $g-theme-color-gray-dark-v1;
+}
+.g-theme-bg-gray-dark-v3 {
+  background-color: $g-theme-color-gray-dark-v3;
+}
+.g-theme-bg-gray-dark-v4 {
+  background-color: $g-theme-color-gray-dark-v4;
+  &--hover:hover {
+    background-color: $g-theme-color-gray-dark-v4 !important;
+  }
+}
+.g-parent:hover {
+  .g-theme-bg-gray-dark-v4--parent-hover {
+    background-color: $g-theme-color-gray-dark-v4 !important;
+  }
+}
+
+.g-theme-bg-gray-light-v2 {
+  background-color: $g-theme-color-gray-light-v2;
+}
+
+/* Border */
+.g-theme-brd-gray-light-v1 {
+  border-color: $g-theme-color-gray-light-v1 !important;
+}
+.g-theme-brd-gray-dark-v2 {
+  border-color: $g-theme-color-gray-dark-v2 !important;
+}
+.g-theme-brd-gray-dark-v6 {
+  border-color: $g-theme-color-gray-dark-v6 !important;
+}
+
+/* Nav */
+.u-header__section--light .nav-link {
+  color: $g-color-gray-dark-v3 !important;
+}
+
+.u-header .active .nav-link {
+  color: $g-color-primary !important;
+}
+
+.u-carousel-indicators-v6 {
+  &::before {
+    border-bottom-color: $g-theme-color-gray-light-v1;
+  }
+  li {
+    color: $g-color-gray-dark-v5;
+
+    &.slick-active {
+      color: $g-color-primary;
+
+      span {
+        border-color: $g-color-primary;
+      }
+    }
+  }
+  span {
+    border-color: $g-theme-color-gray-light-v3;
+  }
+  strong {
+    font-weight: 600;
+  }
+}
+
+.u-carousel-indicators-v29 {
+  display: block !important;
+
+  li {
+    &.slick-active {
+      color: $g-color-primary;
+      border-top-color: $g-color-primary;
+    }
+  }
+}
+
+@media (min-width: $g-md) {
+  .u-carousel-indicators-v6 {
+    span {
+      border-color: $g-theme-color-gray-light-v1;
+    }
+  }
+}
